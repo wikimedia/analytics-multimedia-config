@@ -7,11 +7,6 @@
 			"name": "Actions",
 			"graph_ids": [
 				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-clicks.tsv"
-			]
-		},
-		{
-			"name": "Performance",
-			"graph_ids": [
 				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-performance.tsv"
 			]
 		}
