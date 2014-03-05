@@ -1,0 +1,13 @@
+{
+	"id": "mmv",
+	"headline": "Media Viewer",
+	"subhead": "Stats for the new Media Viewer.",
+	"tabs": [
+		{
+			"name": "Actions",
+			"graph_ids": [
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-clicks.tsv"
+			]
+		}
+	]
+}
