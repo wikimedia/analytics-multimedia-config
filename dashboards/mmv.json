@@ -12,7 +12,7 @@
 				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-fr.tsv",
 				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-hu.tsv",
 				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-mediawiki.tsv"
-			],
+			]
 		},
 		{
 			"name": "Performance",
