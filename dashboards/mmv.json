@@ -6,7 +6,17 @@
 		{
 			"name": "Actions",
 			"graph_ids": [
-				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-clicks.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-global.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-commons.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-en.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-fr.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-hu.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-mediawiki.tsv"
+			],
+		},
+		{
+			"name": "Performance",
+			"graph_ids": [
 				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-performance.tsv"
 			]
 		}
