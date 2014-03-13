@@ -24,6 +24,17 @@
 				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-hu.tsv",
 				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-mediawiki.tsv"
 			]
+		},
+		{
+			"name": "Old Performance",
+			"graph_ids": [
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-oldperf-global.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-oldperf-commons.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-oldperf-en.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-oldperf-fr.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-oldperf-hu.tsv",
+				"http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-oldperf-mediawiki.tsv"
+			]
 		}
 	]
 }
