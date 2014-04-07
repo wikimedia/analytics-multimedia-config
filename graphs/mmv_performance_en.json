@@ -1,0 +1,364 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_performance_en",
+    "desc": "<i>mean</i> statistical mean<br><i>stddev</i> standard deviation<br><i>size</i> sample size<br><br><b>userinfo</b> API call fetching information about users. Mainly used for correct gender-based localization of text<br><b>imageinfo</b> API call fetching general information about the image<br><b>thumbnailinfo</b> API call fetching information about a thumbnail of a specific size for the image<br><b>filerepoinfo</b><br><b>imageusage</b><br><b>globalusage</b><br><b>image</b> the images shown in Media Viewer. Cache hits and misses represent whether the image had to be generated on the fly (miss) or had already been generated (hit)",
+    "name": "Network performance: en",
+    "slug": "mmv_performance_en",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "milliseconds"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "userinfo_time_mean",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "userinfo (mean)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "userinfo_time_std",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "userinfo (stddev)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "userinfo_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "userinfo (size)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imageinfo_time_mean",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "imageinfo (mean)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imageinfo_time_std",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "imageinfo (stddev)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imageinfo_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "imageinfo (size)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "thumbnailinfo_time_mean",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thumbnailinfo (mean)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "thumbnailinfo_time_std",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thumbnailinfo (stddev)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "thumbnailinfo_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thumbnailinfo (size)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "filerepoinfo_time_mean",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "filerepoinfo (mean)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "filerepoinfo_time_std",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "filerepoinfo (stddev)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "filerepoinfo_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "filerepoinfo (size)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imageusage_time_mean",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "imageusage (mean)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imageusage_time_std",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "imageusage (stddev)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imageusage_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "imageusage (size)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "globalusage_time_mean",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "globalusage (mean)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "globalusage_time_std",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "globalusage (stddev)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "globalusage_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "globalusage (size)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "image_time_mean",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image (mean)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "image_time_std",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image (stddev)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "image_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image (size)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imagehit_time_mean",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image hit (mean)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imagehit_time_std",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image hit (stddev)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imagehit_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image hit (size)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imagemiss_time_mean",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image miss (mean)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imagemiss_time_std",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image miss (stddev)",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_en",
+                            "source_col": "imagemiss_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image miss (size)",
+                            "disabled": true
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

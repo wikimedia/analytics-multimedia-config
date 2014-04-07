@@ -1,0 +1,151 @@
+{
+    "id": "mmv_performance_commons",
+    "slug": "mmv_performance_commons",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-commons.tsv",
+    "name": "Network performance: commons",
+    "shortName": "mmv_performance_commons",
+    "columns": [
+        {
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
+        },
+        {
+            "id": "userinfo_time_mean",
+            "label": "userinfo (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "userinfo_time_std",
+            "label": "userinfo (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "userinfo_sample_size",
+            "label": "userinfo (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "imageinfo_time_mean",
+            "label": "imageinfo (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "imageinfo_time_std",
+            "label": "imageinfo (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "imageinfo_sample_size",
+            "label": "imageinfo (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "thumbnailinfo_time_mean",
+            "label": "thumbnailinfo (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "thumbnailinfo_time_std",
+            "label": "thumbnailinfo (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "thumbnailinfo_sample_size",
+            "label": "thumbnailinfo (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "filerepoinfo_time_mean",
+            "label": "filerepoinfo (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "filerepoinfo_time_std",
+            "label": "filerepoinfo (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "filerepoinfo_sample_size",
+            "label": "filerepoinfo (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "imageusage_time_mean",
+            "label": "imageusage (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "imageusage_time_std",
+            "label": "imageusage (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "imageusage_sample_size",
+            "label": "imageusage (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "globalusage_time_mean",
+            "label": "globalusage (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "globalusage_time_std",
+            "label": "globalusage (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "globalusage_sample_size",
+            "label": "globalusage (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "image_time_mean",
+            "label": "image (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "image_time_std",
+            "label": "image (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "image_sample_size",
+            "label": "image (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_time_mean",
+            "label": "image - cache hit (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_time_std",
+            "label": "image - cache hit (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_sample_size",
+            "label": "image - cache hit (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "imagemiss_time_mean",
+            "label": "image - cache miss (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "imagemiss_time_std",
+            "label": "image - cache miss (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "imagemiss_sample_size",
+            "label": "image - cache miss (sample size)",
+            "type": "Number"
+        }
+    ]
+}

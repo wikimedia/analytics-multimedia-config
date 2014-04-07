@@ -1,0 +1,138 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_actions_fr",
+    "desc": "<b>thumbnail click</b> how many times users clicked on a thumbnail which opened media viewer<br><b>enlarge click</b> how many times users clicked on the \"enlarge\" icon next to the thumbnail which opened media viewer<br><b>fullscreen click</b> how many times users went into fullscreen mode<br><b>defullscreen click</b> how many times users exited fullscreen mode<br><b>site link click</b> how many times users clicked on the link to the site where the File: page of that image is hosted<br><b>close click</b> how many times users clicked on the close button or pressed escape to close media viewer<br><b>use this file click</b> how many times users clicked on \"use this file\"<br><b>image view</b> how many times users viewed an image",
+    "name": "Actions: fr",
+    "slug": "mmv_actions_fr",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_fr",
+                            "source_col": "thumbnail-link-click",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thumbnail click"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_fr",
+                            "source_col": "enlarge-link-click",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "enlarge click"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_fr",
+                            "source_col": "fullscreen-link-click",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "fullscreen click"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_fr",
+                            "source_col": "defullscreen-link-click",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "defullscreen click"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_fr",
+                            "source_col": "site-link-click",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "site link click"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_fr",
+                            "source_col": "close-link-click",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "close click",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_fr",
+                            "source_col": "use-this-file-link-click",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "use this file click"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_fr",
+                            "source_col": "image-view",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image view"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

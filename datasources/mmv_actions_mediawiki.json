@@ -1,0 +1,56 @@
+{
+    "id": "mmv_actions_mediawiki",
+    "slug": "mmv_actions_mediawiki",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-mediawiki.tsv",
+    "name": "Actions: mediawiki",
+    "shortName": "mmv_actions_mediawiki",
+    "columns": [
+        {
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
+        },
+        {
+            "id": "thumbnail-link-click",
+            "label": "thumbnail click",
+            "type": "Number"
+        },
+        {
+            "id": "enlarge-link-click",
+            "label": "enlarge click",
+            "type": "Number"
+        },
+        {
+            "id": "fullscreen-link-click",
+            "label": "fullscreen click",
+            "type": "Number"
+        },
+        {
+            "id": "defullscreen-link-click",
+            "label": "defullscreen click",
+            "type": "Number"
+        },
+        {
+            "id": "site-link-click",
+            "label": "site link click",
+            "type": "Number"
+        },
+        {
+            "id": "close-link-click",
+            "label": "close click",
+            "type": "Number"
+        },
+        {
+            "id": "use-this-file-link-click",
+            "label": "use this file click",
+            "type": "Number"
+        },
+        {
+            "id": "image-view",
+            "label": "image view",
+            "type": "Number"
+        }
+    ]
+}
