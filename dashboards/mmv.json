@@ -15,7 +15,7 @@
 			]
 		},
 		{
-			"name": "Network performance",
+			"name": "Overall network performance",
 			"graph_ids": [
 				"mmv_performance_global",
 				"mmv_performance_commons",
@@ -23,6 +23,12 @@
 				"mmv_performance_fr",
 				"mmv_performance_hu",
 				"mmv_performance_mediawiki"
+			]
+		},
+		{
+			"name": "Media Viewer vs File page",
+			"graph_ids": [
+				"mmv_versus_file_page"
 			]
 		}
 	]
