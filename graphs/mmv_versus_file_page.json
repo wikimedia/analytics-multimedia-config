@@ -1,9 +1,9 @@
 {
     "graph_version": "0.6.0",
-    "id": "mmv_aversus_file_page",
+    "id": "mmv_versus_file_page",
     "desc": "Compares the time it takes to open an image with Media Viewer and on the File: page. The comparison is done under different caching and screen size conditions.<br><br><i>mean</i> statistical mean<br><i>stddev</i> standard deviation",
     "name": "Media Viewer vs File page",
-    "slug": "mmv_aversus_file_page",
+    "slug": "mmv_versus_file_page",
     "root": {
         "nodeType": "canvas",
         "width": "auto",
