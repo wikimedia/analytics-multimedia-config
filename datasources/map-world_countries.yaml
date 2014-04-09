@@ -4,5 +4,4 @@ shortName : "Map: World Countries"
 
 format    : json
 type      : geojson
-url       : /data/geo/example/maps/world-countries.json
-
+url       : /data/geo/mmv/maps/world-countries.json
