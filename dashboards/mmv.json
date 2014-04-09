@@ -30,6 +30,13 @@
 			"graph_ids": [
 				"mmv_versus_file_page"
 			]
+		},
+		{
+			"name": "Geographical network performance",
+			"graph_ids": [
+				"mmv_performance_country_api",
+				"mmv_performance_country_image"
+			]
 		}
 	]
 }
