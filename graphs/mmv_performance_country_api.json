@@ -34,7 +34,8 @@
                         "options": {
                             "label": "Mean",
                             "scale": "log",
-                            "valueFormat": ",.3s",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms",
                             "fill": [
                                 "#00FF00",
                                 "#FF0000"
@@ -57,7 +58,9 @@
                             "type": "Number"
                         },
                         "options": {
-                            "label": "Standard deviation"
+                            "label": "Standard deviation",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
                         }
                     },
                     {
@@ -69,7 +72,7 @@
                         },
                         "options": {
                             "label": "Sample size",
-                            "valueFormat": ",.3s"
+                            "valueFormat": ",.3r"
                         }
                     }
                 ]
