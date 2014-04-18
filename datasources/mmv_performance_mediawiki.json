@@ -118,21 +118,6 @@
             "type": "Number"
         },
         {
-            "id": "imagehit_time_mean",
-            "label": "image - cache hit (mean)",
-            "type": "Number"
-        },
-        {
-            "id": "imagehit_time_std",
-            "label": "image - cache hit (standard deviation)",
-            "type": "Number"
-        },
-        {
-            "id": "imagehit_sample_size",
-            "label": "image - cache hit (sample size)",
-            "type": "Number"
-        },
-        {
             "id": "imagemiss_time_mean",
             "label": "image - cache miss (mean)",
             "type": "Number"
@@ -145,6 +130,21 @@
         {
             "id": "imagemiss_sample_size",
             "label": "image - cache miss (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_time_mean",
+            "label": "image - cache hit (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_time_std",
+            "label": "image - cache hit (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_sample_size",
+            "label": "image - cache hit (sample size)",
             "type": "Number"
         }
     ]
