@@ -1,28 +1,26 @@
 {
 	"id": "mmv",
 	"headline": "Media Viewer",
-	"subhead": "metrics",
+	"subhead": "global metrics",
 	"tabs": [
 		{
 			"name": "Actions",
 			"graph_ids": [
-				"mmv_actions_global",
-				"mmv_actions_commons",
-				"mmv_actions_en",
-				"mmv_actions_fr",
-				"mmv_actions_hu",
-				"mmv_actions_mediawiki"
+				"mmv_actions_global"
 			]
 		},
 		{
 			"name": "Overall network performance",
 			"graph_ids": [
-				"mmv_performance_global",
-				"mmv_performance_commons",
-				"mmv_performance_en",
-				"mmv_performance_fr",
-				"mmv_performance_hu",
-				"mmv_performance_mediawiki"
+				"mmv_performance_userinfo_global",
+				"mmv_performance_imageinfo_global",
+				"mmv_performance_thumbnailinfo_global",
+				"mmv_performance_filerepoinfo_global",
+				"mmv_performance_imageusage_global",
+				"mmv_performance_globalusage_global",
+				"mmv_performance_image_global",
+				"mmv_performance_imagehit_global",
+				"mmv_performance_imagemiss_global"
 			]
 		},
 		{

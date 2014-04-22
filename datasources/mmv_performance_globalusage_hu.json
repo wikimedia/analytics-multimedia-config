@@ -1,0 +1,51 @@
+{
+    "id": "mmv_performance_globalusage_hu",
+    "slug": "mmv_performance_globalusage_hu",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-hu-globalusage.tsv",
+    "name": "globalusage network performance: hu",
+    "shortName": "mmv_performance_globalusage_hu",
+    "columns": [
+        {
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
+        },
+        {
+            "id": "globalusage_time_mean",
+            "label": "globalusage (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "globalusage_time_std",
+            "label": "globalusage (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "globalusage_sample_size",
+            "label": "globalusage (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "globalusage_time_1st_percentile",
+            "label": "globalusage (1st)",
+            "type": "Number"
+        },
+        {
+            "id": "globalusage_time_50th_percentile",
+            "label": "globalusage (50th)",
+            "type": "Number"
+        },
+        {
+            "id": "globalusage_time_90th_percentile",
+            "label": "globalusage (90th)",
+            "type": "Number"
+        },
+        {
+            "id": "globalusage_time_99th_percentile",
+            "label": "globalusage (99th)",
+            "type": "Number"
+        }
+    ]
+}
