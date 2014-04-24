@@ -12,15 +12,15 @@
 		{
 			"name": "Overall network performance",
 			"graph_ids": [
+				"mmv_performance_image_mediawiki",
+				"mmv_performance_imagehit_mediawiki",
+				"mmv_performance_imagemiss_mediawiki",
 				"mmv_performance_userinfo_mediawiki",
 				"mmv_performance_imageinfo_mediawiki",
 				"mmv_performance_thumbnailinfo_mediawiki",
 				"mmv_performance_filerepoinfo_mediawiki",
 				"mmv_performance_imageusage_mediawiki",
-				"mmv_performance_globalusage_mediawiki",
-				"mmv_performance_image_mediawiki",
-				"mmv_performance_imagehit_mediawiki",
-				"mmv_performance_imagemiss_mediawiki"
+				"mmv_performance_globalusage_mediawiki"
 			]
 		}
 	]
