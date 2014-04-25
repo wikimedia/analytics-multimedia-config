@@ -1,0 +1,51 @@
+{
+    "id": "mmv_performance_filerepoinfo_cawiki",
+    "slug": "mmv_performance_filerepoinfo_cawiki",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-cawiki-filerepoinfo.tsv",
+    "name": "filerepoinfo network performance: cawiki",
+    "shortName": "mmv_performance_filerepoinfo_cawiki",
+    "columns": [
+        {
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
+        },
+        {
+            "id": "filerepoinfo_time_mean",
+            "label": "filerepoinfo (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "filerepoinfo_time_std",
+            "label": "filerepoinfo (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "filerepoinfo_sample_size",
+            "label": "filerepoinfo (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "filerepoinfo_time_1st_percentile",
+            "label": "filerepoinfo (1st)",
+            "type": "Number"
+        },
+        {
+            "id": "filerepoinfo_time_50th_percentile",
+            "label": "filerepoinfo (50th)",
+            "type": "Number"
+        },
+        {
+            "id": "filerepoinfo_time_90th_percentile",
+            "label": "filerepoinfo (90th)",
+            "type": "Number"
+        },
+        {
+            "id": "filerepoinfo_time_99th_percentile",
+            "label": "filerepoinfo (99th)",
+            "type": "Number"
+        }
+    ]
+}

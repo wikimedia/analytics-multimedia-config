@@ -1,0 +1,27 @@
+{
+	"id": "mmv-cawiki",
+	"headline": "Media Viewer",
+	"subhead": "cawiki metrics",
+	"tabs": [
+		{
+			"name": "Actions",
+			"graph_ids": [
+				"mmv_actions_cawiki"
+			]
+		},
+		{
+			"name": "Overall network performance",
+			"graph_ids": [
+				"mmv_performance_image_cawiki",
+				"mmv_performance_imagehit_cawiki",
+				"mmv_performance_imagemiss_cawiki",
+				"mmv_performance_userinfo_cawiki",
+				"mmv_performance_imageinfo_cawiki",
+				"mmv_performance_thumbnailinfo_cawiki",
+				"mmv_performance_filerepoinfo_cawiki",
+				"mmv_performance_imageusage_cawiki",
+				"mmv_performance_globalusage_cawiki"
+			]
+		}
+	]
+}

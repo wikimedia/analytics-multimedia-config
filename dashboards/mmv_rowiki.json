@@ -1,0 +1,27 @@
+{
+	"id": "mmv-rowiki",
+	"headline": "Media Viewer",
+	"subhead": "rowiki metrics",
+	"tabs": [
+		{
+			"name": "Actions",
+			"graph_ids": [
+				"mmv_actions_rowiki"
+			]
+		},
+		{
+			"name": "Overall network performance",
+			"graph_ids": [
+				"mmv_performance_image_rowiki",
+				"mmv_performance_imagehit_rowiki",
+				"mmv_performance_imagemiss_rowiki",
+				"mmv_performance_userinfo_rowiki",
+				"mmv_performance_imageinfo_rowiki",
+				"mmv_performance_thumbnailinfo_rowiki",
+				"mmv_performance_filerepoinfo_rowiki",
+				"mmv_performance_imageusage_rowiki",
+				"mmv_performance_globalusage_rowiki"
+			]
+		}
+	]
+}

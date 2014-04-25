@@ -1,0 +1,27 @@
+{
+	"id": "mmv-kowiki",
+	"headline": "Media Viewer",
+	"subhead": "kowiki metrics",
+	"tabs": [
+		{
+			"name": "Actions",
+			"graph_ids": [
+				"mmv_actions_kowiki"
+			]
+		},
+		{
+			"name": "Overall network performance",
+			"graph_ids": [
+				"mmv_performance_image_kowiki",
+				"mmv_performance_imagehit_kowiki",
+				"mmv_performance_imagemiss_kowiki",
+				"mmv_performance_userinfo_kowiki",
+				"mmv_performance_imageinfo_kowiki",
+				"mmv_performance_thumbnailinfo_kowiki",
+				"mmv_performance_filerepoinfo_kowiki",
+				"mmv_performance_imageusage_kowiki",
+				"mmv_performance_globalusage_kowiki"
+			]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+    "id": "mmv_performance_imageinfo_etwiki",
+    "slug": "mmv_performance_imageinfo_etwiki",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-etwiki-imageinfo.tsv",
+    "name": "imageinfo network performance: etwiki",
+    "shortName": "mmv_performance_imageinfo_etwiki",
+    "columns": [
+        {
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
+        },
+        {
+            "id": "imageinfo_time_mean",
+            "label": "imageinfo (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "imageinfo_time_std",
+            "label": "imageinfo (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "imageinfo_sample_size",
+            "label": "imageinfo (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "imageinfo_time_1st_percentile",
+            "label": "imageinfo (1st)",
+            "type": "Number"
+        },
+        {
+            "id": "imageinfo_time_50th_percentile",
+            "label": "imageinfo (50th)",
+            "type": "Number"
+        },
+        {
+            "id": "imageinfo_time_90th_percentile",
+            "label": "imageinfo (90th)",
+            "type": "Number"
+        },
+        {
+            "id": "imageinfo_time_99th_percentile",
+            "label": "imageinfo (99th)",
+            "type": "Number"
+        }
+    ]
+}

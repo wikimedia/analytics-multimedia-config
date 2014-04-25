@@ -1,0 +1,27 @@
+{
+	"id": "mmv-skwiki",
+	"headline": "Media Viewer",
+	"subhead": "skwiki metrics",
+	"tabs": [
+		{
+			"name": "Actions",
+			"graph_ids": [
+				"mmv_actions_skwiki"
+			]
+		},
+		{
+			"name": "Overall network performance",
+			"graph_ids": [
+				"mmv_performance_image_skwiki",
+				"mmv_performance_imagehit_skwiki",
+				"mmv_performance_imagemiss_skwiki",
+				"mmv_performance_userinfo_skwiki",
+				"mmv_performance_imageinfo_skwiki",
+				"mmv_performance_thumbnailinfo_skwiki",
+				"mmv_performance_filerepoinfo_skwiki",
+				"mmv_performance_imageusage_skwiki",
+				"mmv_performance_globalusage_skwiki"
+			]
+		}
+	]
+}

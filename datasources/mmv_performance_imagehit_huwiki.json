@@ -1,0 +1,51 @@
+{
+    "id": "mmv_performance_imagehit_huwiki",
+    "slug": "mmv_performance_imagehit_huwiki",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-huwiki-imagehit.tsv",
+    "name": "imagehit network performance: huwiki",
+    "shortName": "mmv_performance_imagehit_huwiki",
+    "columns": [
+        {
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
+        },
+        {
+            "id": "imagehit_time_mean",
+            "label": "imagehit (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_time_std",
+            "label": "imagehit (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_sample_size",
+            "label": "imagehit (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_time_1st_percentile",
+            "label": "imagehit (1st)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_time_50th_percentile",
+            "label": "imagehit (50th)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_time_90th_percentile",
+            "label": "imagehit (90th)",
+            "type": "Number"
+        },
+        {
+            "id": "imagehit_time_99th_percentile",
+            "label": "imagehit (99th)",
+            "type": "Number"
+        }
+    ]
+}

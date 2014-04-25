@@ -1,0 +1,27 @@
+{
+	"id": "mmv-huwiki",
+	"headline": "Media Viewer",
+	"subhead": "huwiki metrics",
+	"tabs": [
+		{
+			"name": "Actions",
+			"graph_ids": [
+				"mmv_actions_huwiki"
+			]
+		},
+		{
+			"name": "Overall network performance",
+			"graph_ids": [
+				"mmv_performance_image_huwiki",
+				"mmv_performance_imagehit_huwiki",
+				"mmv_performance_imagemiss_huwiki",
+				"mmv_performance_userinfo_huwiki",
+				"mmv_performance_imageinfo_huwiki",
+				"mmv_performance_thumbnailinfo_huwiki",
+				"mmv_performance_filerepoinfo_huwiki",
+				"mmv_performance_imageusage_huwiki",
+				"mmv_performance_globalusage_huwiki"
+			]
+		}
+	]
+}

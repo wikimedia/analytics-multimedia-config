@@ -1,6 +1,27 @@
 <?php
 
-$wikis = array( 'global', 'hu', 'fr', 'en', 'mediawiki', 'commons' );
+$wikis = array(
+	'global',
+	'huwiki',
+	'frwiki',
+	'enwiki',
+	'mediawikiwiki',
+	'commonswiki',
+	'cawiki',
+	'dewiki',
+	'hewiki',
+	'kowiki',
+	'plwiki',
+	'ptwiki',
+	'enwikivoyage',
+	'czwiki',
+	'etwiki',
+	'fiwki',
+	'rowiki',
+	'skwiki',
+	'thwiki',
+	'viwiki',
+);
 
 $performance_metrics = array(
 	'userinfo' => 'API call fetching information about users. Mainly used for correct gender-based localization of text',
