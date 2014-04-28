@@ -1,11 +1,11 @@
 {
-    "id": "mmv_performance_image_fiwki",
-    "slug": "mmv_performance_image_fiwki",
+    "id": "mmv_performance_image_fiwiki",
+    "slug": "mmv_performance_image_fiwiki",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-fiwki-image.tsv",
-    "name": "image network performance: fiwki",
-    "shortName": "mmv_performance_image_fiwki",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-fiwiki-image.tsv",
+    "name": "image network performance: fiwiki",
+    "shortName": "mmv_performance_image_fiwiki",
     "columns": [
         {
             "id": "datestring",

@@ -1,11 +1,11 @@
 {
-    "id": "mmv_performance_globalusage_fiwki",
-    "slug": "mmv_performance_globalusage_fiwki",
+    "id": "mmv_performance_globalusage_fiwiki",
+    "slug": "mmv_performance_globalusage_fiwiki",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-fiwki-globalusage.tsv",
-    "name": "globalusage network performance: fiwki",
-    "shortName": "mmv_performance_globalusage_fiwki",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-fiwiki-globalusage.tsv",
+    "name": "globalusage network performance: fiwiki",
+    "shortName": "mmv_performance_globalusage_fiwiki",
     "columns": [
         {
             "id": "datestring",

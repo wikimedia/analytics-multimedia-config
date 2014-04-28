@@ -1,9 +1,9 @@
 {
     "graph_version": "0.6.0",
-    "id": "mmv_performance_imagehit_fiwki",
-    "desc": "<b>images shown in Media Viewer, cache hit (image didn't have to be generated on the fly)</b><br><br><i>mean</i> geometric mean<br><i>stddev</i> geometric standard deviation<br><i>size</i> sample size<br><i>Xth</i> percentiles",
-    "name": "fiwki network performance: imagehit",
-    "slug": "mmv_performance_imagehit_fiwki",
+    "id": "mmv_performance_filerepoinfo_fiwiki",
+    "desc": "<b>API call fetching information about a file repository</b><br><br><i>mean</i> geometric mean<br><i>stddev</i> geometric standard deviation<br><i>size</i> sample size<br><i>Xth</i> percentiles",
+    "name": "fiwiki network performance: filerepoinfo",
+    "slug": "mmv_performance_filerepoinfo_fiwiki",
     "root": {
         "nodeType": "canvas",
         "width": "auto",
@@ -45,80 +45,80 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_imagehit_fiwki",
-                            "source_col": "imagehit_time_mean",
+                            "source_id": "mmv_performance_filerepoinfo_fiwiki",
+                            "source_col": "filerepoinfo_time_mean",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "imagehit (mean)"
+                            "label": "filerepoinfo (mean)"
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_imagehit_fiwki",
-                            "source_col": "imagehit_time_1st_percentile",
+                            "source_id": "mmv_performance_filerepoinfo_fiwiki",
+                            "source_col": "filerepoinfo_time_1st_percentile",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "imagehit (1st)"
+                            "label": "filerepoinfo (1st)"
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_imagehit_fiwki",
-                            "source_col": "imagehit_time_50th_percentile",
+                            "source_id": "mmv_performance_filerepoinfo_fiwiki",
+                            "source_col": "filerepoinfo_time_50th_percentile",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "imagehit (50th)"
+                            "label": "filerepoinfo (50th)"
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_imagehit_fiwki",
-                            "source_col": "imagehit_time_90th_percentile",
+                            "source_id": "mmv_performance_filerepoinfo_fiwiki",
+                            "source_col": "filerepoinfo_time_90th_percentile",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "imagehit (90th)"
+                            "label": "filerepoinfo (90th)"
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_imagehit_fiwki",
-                            "source_col": "imagehit_time_99th_percentile",
+                            "source_id": "mmv_performance_filerepoinfo_fiwiki",
+                            "source_col": "filerepoinfo_time_99th_percentile",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "imagehit (99th)",
+                            "label": "filerepoinfo (99th)",
                             "disabled": true
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_imagehit_fiwki",
-                            "source_col": "imagehit_time_std",
+                            "source_id": "mmv_performance_filerepoinfo_fiwiki",
+                            "source_col": "filerepoinfo_time_std",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "imagehit (stddev)",
+                            "label": "filerepoinfo (stddev)",
                             "disabled": true
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_imagehit_fiwki",
-                            "source_col": "imagehit_sample_size",
+                            "source_id": "mmv_performance_filerepoinfo_fiwiki",
+                            "source_col": "filerepoinfo_sample_size",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "imagehit (size)",
+                            "label": "filerepoinfo (size)",
                             "disabled": true
                         }
                     }

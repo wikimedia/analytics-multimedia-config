@@ -1,11 +1,11 @@
 {
-    "id": "mmv_actions_fiwki",
-    "slug": "mmv_actions_fiwki",
+    "id": "mmv_actions_fiwiki",
+    "slug": "mmv_actions_fiwiki",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-fiwki.tsv",
-    "name": "Actions: fiwki",
-    "shortName": "mmv_actions_fiwki",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-actions-fiwiki.tsv",
+    "name": "Actions: fiwiki",
+    "shortName": "mmv_actions_fiwiki",
     "columns": [
         {
             "id": "datestring",

@@ -1,9 +1,9 @@
 {
     "graph_version": "0.6.0",
-    "id": "mmv_performance_globalusage_fiwki",
-    "desc": "<b>API call fetching file usage information on all wikis but the local one</b><br><br><i>mean</i> geometric mean<br><i>stddev</i> geometric standard deviation<br><i>size</i> sample size<br><i>Xth</i> percentiles",
-    "name": "fiwki network performance: globalusage",
-    "slug": "mmv_performance_globalusage_fiwki",
+    "id": "mmv_performance_imagemiss_fiwiki",
+    "desc": "<b>images shown in Media Viewer, cache miss (image had to be generated on the fly)</b><br><br><i>mean</i> geometric mean<br><i>stddev</i> geometric standard deviation<br><i>size</i> sample size<br><i>Xth</i> percentiles",
+    "name": "fiwiki network performance: imagemiss",
+    "slug": "mmv_performance_imagemiss_fiwiki",
     "root": {
         "nodeType": "canvas",
         "width": "auto",
@@ -45,80 +45,80 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_globalusage_fiwki",
-                            "source_col": "globalusage_time_mean",
+                            "source_id": "mmv_performance_imagemiss_fiwiki",
+                            "source_col": "imagemiss_time_mean",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "globalusage (mean)"
+                            "label": "imagemiss (mean)"
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_globalusage_fiwki",
-                            "source_col": "globalusage_time_1st_percentile",
+                            "source_id": "mmv_performance_imagemiss_fiwiki",
+                            "source_col": "imagemiss_time_1st_percentile",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "globalusage (1st)"
+                            "label": "imagemiss (1st)"
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_globalusage_fiwki",
-                            "source_col": "globalusage_time_50th_percentile",
+                            "source_id": "mmv_performance_imagemiss_fiwiki",
+                            "source_col": "imagemiss_time_50th_percentile",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "globalusage (50th)"
+                            "label": "imagemiss (50th)"
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_globalusage_fiwki",
-                            "source_col": "globalusage_time_90th_percentile",
+                            "source_id": "mmv_performance_imagemiss_fiwiki",
+                            "source_col": "imagemiss_time_90th_percentile",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "globalusage (90th)"
+                            "label": "imagemiss (90th)"
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_globalusage_fiwki",
-                            "source_col": "globalusage_time_99th_percentile",
+                            "source_id": "mmv_performance_imagemiss_fiwiki",
+                            "source_col": "imagemiss_time_99th_percentile",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "globalusage (99th)",
+                            "label": "imagemiss (99th)",
                             "disabled": true
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_globalusage_fiwki",
-                            "source_col": "globalusage_time_std",
+                            "source_id": "mmv_performance_imagemiss_fiwiki",
+                            "source_col": "imagemiss_time_std",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "globalusage (stddev)",
+                            "label": "imagemiss (stddev)",
                             "disabled": true
                         }
                     },
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_performance_globalusage_fiwki",
-                            "source_col": "globalusage_sample_size",
+                            "source_id": "mmv_performance_imagemiss_fiwiki",
+                            "source_col": "imagemiss_sample_size",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "globalusage (size)",
+                            "label": "imagemiss (size)",
                             "disabled": true
                         }
                     }

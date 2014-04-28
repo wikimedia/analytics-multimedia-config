@@ -1,9 +1,9 @@
 {
     "graph_version": "0.6.0",
-    "id": "mmv_actions_fiwki",
+    "id": "mmv_actions_fiwiki",
     "desc": "<b>thumbnail click</b> how many times users clicked on a thumbnail which opened media viewer<br><b>enlarge click</b> how many times users clicked on the \"enlarge\" icon next to the thumbnail which opened media viewer<br><b>fullscreen</b> how many times users went into fullscreen mode<br><b>defullscreen</b> how many times users exited fullscreen mode<br><b>close</b> how many times users closed media viewer<br><b>file description page</b> how many times users visited that image's File: page<br><b>use this file open</b> how many times users opened \"use this file\"<br><b>image view</b> how many times users viewed an image<br><b>metadata open</b> how many times users opened the metadata panel<br><b>metadata close</b> how many times users closed the metadata panel<br><b>next image</b> how many times users navigated to the next image<br><b>prev image</b> how many times users navigated to the previous image<br><b>terms open</b> how many times users opened the usage terms<br><b>license page</b> how many times users visited that image's license page<br><b>author</b> how many times users visited that image's author page<br><b>source page</b> how many times users visited that image's source page<br><b>hash load</b> how many times users opened Media Viewer through a hash link<br><b>history navigation</b> how many times users navigated within Media Viewer using their browser's history",
     "name": "Actions",
-    "slug": "mmv_actions_fiwki",
+    "slug": "mmv_actions_fiwiki",
     "root": {
         "nodeType": "canvas",
         "width": "auto",
@@ -45,7 +45,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "thumbnail",
                             "type": "Number"
                         },
@@ -56,7 +56,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "enlarge",
                             "type": "Number"
                         },
@@ -67,7 +67,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "fullscreen",
                             "type": "Number"
                         },
@@ -78,7 +78,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "defullscreen",
                             "type": "Number"
                         },
@@ -89,7 +89,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "close",
                             "type": "Number"
                         },
@@ -100,7 +100,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "file-description-page",
                             "type": "Number"
                         },
@@ -111,7 +111,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "use-this-file-open",
                             "type": "Number"
                         },
@@ -122,7 +122,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "image-view",
                             "type": "Number"
                         },
@@ -133,7 +133,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "metadata-open",
                             "type": "Number"
                         },
@@ -144,7 +144,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "metadata-close",
                             "type": "Number"
                         },
@@ -155,7 +155,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "next-image",
                             "type": "Number"
                         },
@@ -166,7 +166,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "prev-image",
                             "type": "Number"
                         },
@@ -177,7 +177,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "terms-open",
                             "type": "Number"
                         },
@@ -188,7 +188,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "license-page",
                             "type": "Number"
                         },
@@ -199,7 +199,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "author-page",
                             "type": "Number"
                         },
@@ -210,7 +210,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "source-page",
                             "type": "Number"
                         },
@@ -221,7 +221,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "hash-load",
                             "type": "Number"
                         },
@@ -232,7 +232,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "mmv_actions_fiwki",
+                            "source_id": "mmv_actions_fiwiki",
                             "source_col": "history-navigation",
                             "type": "Number"
                         },

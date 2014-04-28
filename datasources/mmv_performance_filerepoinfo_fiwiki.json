@@ -1,11 +1,11 @@
 {
-    "id": "mmv_performance_filerepoinfo_fiwki",
-    "slug": "mmv_performance_filerepoinfo_fiwki",
+    "id": "mmv_performance_filerepoinfo_fiwiki",
+    "slug": "mmv_performance_filerepoinfo_fiwiki",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-fiwki-filerepoinfo.tsv",
-    "name": "filerepoinfo network performance: fiwki",
-    "shortName": "mmv_performance_filerepoinfo_fiwki",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-fiwiki-filerepoinfo.tsv",
+    "name": "filerepoinfo network performance: fiwiki",
+    "shortName": "mmv_performance_filerepoinfo_fiwiki",
     "columns": [
         {
             "id": "datestring",
