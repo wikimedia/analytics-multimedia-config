@@ -1,11 +1,11 @@
 {
-    "id": "mmv_performance_country_image",
-    "slug": "mmv_performance_country_image",
+    "id": "mmv_geoperformance_image_czwiki",
+    "slug": "mmv_geoperformance_image_czwiki",
     "format": "tsv",
     "type": "series",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-country-image.tsv",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-geoperf-czwiki-image.tsv",
     "name": "Per-country image performance",
-    "shortName": "mmv_performance_country_image",
+    "shortName": "mmv_geoperformance_image_czwiki",
     "columns": [
         {
             "id": "id",

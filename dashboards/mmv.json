@@ -24,16 +24,16 @@
 			]
 		},
 		{
-			"name": "Media Viewer vs File page",
+			"name": "Geographical network performance",
 			"graph_ids": [
-				"mmv_versus_file_page"
+				"mmv_geoperformance_api_global",
+				"mmv_geoperformance_api_image"
 			]
 		},
 		{
-			"name": "Geographical network performance",
+			"name": "Media Viewer vs File page",
 			"graph_ids": [
-				"mmv_performance_country_api",
-				"mmv_performance_country_image"
+				"mmv_versus_file_page"
 			]
 		}
 	]

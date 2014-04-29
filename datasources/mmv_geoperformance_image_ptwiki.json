@@ -1,0 +1,51 @@
+{
+    "id": "mmv_geoperformance_image_ptwiki",
+    "slug": "mmv_geoperformance_image_ptwiki",
+    "format": "tsv",
+    "type": "series",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-geoperf-ptwiki-image.tsv",
+    "name": "Per-country image performance",
+    "shortName": "mmv_geoperformance_image_ptwiki",
+    "columns": [
+        {
+            "id": "id",
+            "label": "ID",
+            "type": "TwoLetterCountryCode"
+        },
+        {
+            "id": "mean",
+            "label": "Mean",
+            "type": "float"
+        },
+        {
+            "id": "std",
+            "label": "Standard deviation",
+            "type": "float"
+        },
+        {
+            "id": "sample_size",
+            "label": "Sample size",
+            "type": "float"
+        },
+        {
+            "id": "1st_percentile",
+            "label": "1st percentile",
+            "type": "float"
+        },
+        {
+            "id": "50th_percentile",
+            "label": "50th percentile",
+            "type": "float"
+        },
+        {
+            "id": "90th_percentile",
+            "label": "90th percentile",
+            "type": "float"
+        },
+        {
+            "id": "99th_percentile",
+            "label": "99th percentile",
+            "type": "float"
+        }
+    ]
+}

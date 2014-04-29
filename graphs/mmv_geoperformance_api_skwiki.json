@@ -1,9 +1,9 @@
 {
     "graph_version": "0.6.0",
-    "id": "mmv_performance_country_image",
-    "desc": "Average duration of image loads per country, in milliseconds. The lower, the better.",
-    "name": "Image network performance",
-    "slug": "mmv_performance_country_image",
+    "id": "mmv_geoperformance_api_skwiki",
+    "desc": "Average duration of API calls per country, in milliseconds. The lower, the better.",
+    "name": "api network performance",
+    "slug": "mmv_geoperformance_api_skwiki",
     "root": {
         "nodeType": "canvas",
         "width": "auto",
@@ -27,7 +27,7 @@
                     {
                         "nodeType": "geo-feature",
                         "metric": {
-                            "source_id": "mmv_performance_country_image",
+                            "source_id": "mmv_geoperformance_api_skwiki",
                             "source_col": "mean",
                             "type": "Number"
                         },
@@ -40,7 +40,7 @@
                     {
                         "nodeType": "geo-feature",
                         "metric": {
-                            "source_id": "mmv_performance_country_api",
+                            "source_id": "mmv_geoperformance_api_skwiki",
                             "source_col": "1st_percentile",
                             "type": "Number"
                         },
@@ -53,7 +53,7 @@
                     {
                         "nodeType": "geo-feature",
                         "metric": {
-                            "source_id": "mmv_performance_country_api",
+                            "source_id": "mmv_geoperformance_api_skwiki",
                             "source_col": "50th_percentile",
                             "type": "Number"
                         },
@@ -66,7 +66,7 @@
                     {
                         "nodeType": "geo-feature",
                         "metric": {
-                            "source_id": "mmv_performance_country_api",
+                            "source_id": "mmv_geoperformance_api_skwiki",
                             "source_col": "90th_percentile",
                             "type": "Number"
                         },
@@ -92,7 +92,7 @@
                     {
                         "nodeType": "geo-feature",
                         "metric": {
-                            "source_id": "mmv_performance_country_api",
+                            "source_id": "mmv_geoperformance_api_skwiki",
                             "source_col": "99th_percentile",
                             "type": "Number"
                         },
@@ -105,7 +105,7 @@
                     {
                         "nodeType": "geo-feature",
                         "metric": {
-                            "source_id": "mmv_performance_country_image",
+                            "source_id": "mmv_geoperformance_api_skwiki",
                             "source_col": "std",
                             "type": "Number"
                         },
@@ -118,7 +118,7 @@
                     {
                         "nodeType": "geo-feature",
                         "metric": {
-                            "source_id": "mmv_performance_country_image",
+                            "source_id": "mmv_geoperformance_api_skwiki",
                             "source_col": "sample_size",
                             "type": "Number"
                         },

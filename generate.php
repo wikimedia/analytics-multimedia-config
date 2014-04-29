@@ -42,10 +42,17 @@ $performance_metrics = array(
 	'imagemiss' => 'images shown in Media Viewer, cache miss (image had to be generated on the fly)',
 );
 
+$geoperformance_metrics = array(
+	'api' => 'Average duration of API calls per country, in milliseconds. The lower, the better.',
+	'image' => 'Average duration of image loads per country, in milliseconds. The lower, the better.'
+);
+
 $templates = array(
 	'./dashboards/mmv' => null,
 	'./datasources/mmv_performance' => $performance_metrics,
 	'./graphs/mmv_performance' => $performance_metrics,
+	'./datasources/mmv_geoperformance' => $geoperformance_metrics,
+	'./graphs/mmv_geoperformance' => $geoperformance_metrics,
 	'./datasources/mmv_actions' => null,
 	'./graphs/mmv_actions' => null,
 );

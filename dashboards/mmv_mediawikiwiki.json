@@ -22,6 +22,13 @@
 				"mmv_performance_imageusage_mediawikiwiki",
 				"mmv_performance_globalusage_mediawikiwiki"
 			]
+		},
+		{
+			"name": "Geographical network performance",
+			"graph_ids": [
+				"mmv_geoperformance_api_mediawikiwiki",
+				"mmv_geoperformance_api_mediawikiwiki"
+			]
 		}
 	]
 }

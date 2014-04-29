@@ -1,0 +1,134 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_geoperformance_image_jawiki",
+    "desc": "Average duration of image loads per country, in milliseconds. The lower, the better.",
+    "name": "image network performance",
+    "slug": "mmv_geoperformance_image_jawiki",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 700,
+        "children": [
+            {
+                "nodeType": "geo-map",
+                "metric": {
+                    "source_id": "map-world_countries",
+                    "type": "int"
+                },
+                "options": {
+                    "projection": "mercator",
+                    "featuresColor": "#EEEEEE",
+                    "backgroundColor": "white"
+                },
+                "children": [
+                    {
+                        "nodeType": "infobox"
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_geoperformance_image_jawiki",
+                            "source_col": "mean",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "Geometric mean",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_geoperformance_image_jawiki",
+                            "source_col": "1st_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "1st percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_geoperformance_image_jawiki",
+                            "source_col": "50th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "50th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_geoperformance_image_jawiki",
+                            "source_col": "90th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "90th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms",
+                            "scale": "log",
+                            "fill": [
+                                "#00FF00",
+                                "#FF0000"
+                            ],
+                            "stroke": {
+                                "width": 1,
+                                "color": "#FFFFFF",
+                                "opacity": [
+                                    0,
+                                    1
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_geoperformance_image_jawiki",
+                            "source_col": "99th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "99th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_geoperformance_image_jawiki",
+                            "source_col": "std",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "Geometric standard deviation",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_geoperformance_image_jawiki",
+                            "source_col": "sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "Sample size",
+                            "valueFormat": ",.3r"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
