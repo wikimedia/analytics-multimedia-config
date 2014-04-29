@@ -1,0 +1,247 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_actions_eswiki",
+    "desc": "<b>thumbnail click</b> how many times users clicked on a thumbnail which opened media viewer<br><b>enlarge click</b> how many times users clicked on the \"enlarge\" icon next to the thumbnail which opened media viewer<br><b>fullscreen</b> how many times users went into fullscreen mode<br><b>defullscreen</b> how many times users exited fullscreen mode<br><b>close</b> how many times users closed media viewer<br><b>file description page</b> how many times users visited that image's File: page<br><b>use this file open</b> how many times users opened \"use this file\"<br><b>image view</b> how many times users viewed an image<br><b>metadata open</b> how many times users opened the metadata panel<br><b>metadata close</b> how many times users closed the metadata panel<br><b>next image</b> how many times users navigated to the next image<br><b>prev image</b> how many times users navigated to the previous image<br><b>terms open</b> how many times users opened the usage terms<br><b>license page</b> how many times users visited that image's license page<br><b>author</b> how many times users visited that image's author page<br><b>source page</b> how many times users visited that image's source page<br><b>hash load</b> how many times users opened Media Viewer through a hash link<br><b>history navigation</b> how many times users navigated within Media Viewer using their browser's history",
+    "name": "Actions",
+    "slug": "mmv_actions_eswiki",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "thumbnail",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thumbnail click"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "enlarge",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "enlarge click"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "fullscreen",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "fullscreen"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "defullscreen",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "defullscreen"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "close",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "close"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "file-description-page",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file description page"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "use-this-file-open",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "use this file open"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "image-view",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image view"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "metadata-open",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "metadata open"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "metadata-close",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "metadata close"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "next-image",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "next image"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "prev-image",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "prev image"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "terms-open",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "terms open"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "license-page",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "license page"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "author-page",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "author page"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "source-page",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "source page"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "hash-load",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "hash load"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "history-navigation",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "history navigation"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

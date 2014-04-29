@@ -1,0 +1,27 @@
+{
+	"id": "mmv-itwiki",
+	"headline": "Media Viewer",
+	"subhead": "itwiki metrics",
+	"tabs": [
+		{
+			"name": "Actions",
+			"graph_ids": [
+				"mmv_actions_itwiki"
+			]
+		},
+		{
+			"name": "Overall network performance",
+			"graph_ids": [
+				"mmv_performance_image_itwiki",
+				"mmv_performance_imagehit_itwiki",
+				"mmv_performance_imagemiss_itwiki",
+				"mmv_performance_userinfo_itwiki",
+				"mmv_performance_imageinfo_itwiki",
+				"mmv_performance_thumbnailinfo_itwiki",
+				"mmv_performance_filerepoinfo_itwiki",
+				"mmv_performance_imageusage_itwiki",
+				"mmv_performance_globalusage_itwiki"
+			]
+		}
+	]
+}

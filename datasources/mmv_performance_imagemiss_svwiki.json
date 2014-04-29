@@ -1,0 +1,51 @@
+{
+    "id": "mmv_performance_imagemiss_svwiki",
+    "slug": "mmv_performance_imagemiss_svwiki",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-svwiki-imagemiss.tsv",
+    "name": "imagemiss network performance: svwiki",
+    "shortName": "mmv_performance_imagemiss_svwiki",
+    "columns": [
+        {
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
+        },
+        {
+            "id": "imagemiss_time_mean",
+            "label": "imagemiss (mean)",
+            "type": "Number"
+        },
+        {
+            "id": "imagemiss_time_std",
+            "label": "imagemiss (standard deviation)",
+            "type": "Number"
+        },
+        {
+            "id": "imagemiss_sample_size",
+            "label": "imagemiss (sample size)",
+            "type": "Number"
+        },
+        {
+            "id": "imagemiss_time_1st_percentile",
+            "label": "imagemiss (1st)",
+            "type": "Number"
+        },
+        {
+            "id": "imagemiss_time_50th_percentile",
+            "label": "imagemiss (50th)",
+            "type": "Number"
+        },
+        {
+            "id": "imagemiss_time_90th_percentile",
+            "label": "imagemiss (90th)",
+            "type": "Number"
+        },
+        {
+            "id": "imagemiss_time_99th_percentile",
+            "label": "imagemiss (99th)",
+            "type": "Number"
+        }
+    ]
+}
