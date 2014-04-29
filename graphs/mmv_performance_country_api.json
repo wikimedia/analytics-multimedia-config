@@ -32,10 +32,49 @@
                             "type": "Number"
                         },
                         "options": {
-                            "label": "Mean",
-                            "scale": "log",
+                            "label": "Geometric mean",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_performance_country_api",
+                            "source_col": "1st_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "1st percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_performance_country_api",
+                            "source_col": "50th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "50th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_performance_country_api",
+                            "source_col": "90th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "90th percentile",
                             "valueFormat": ",.3r",
                             "valueUnitSuffix": "ms",
+                            "scale": "log",
                             "fill": [
                                 "#00FF00",
                                 "#FF0000"
@@ -54,11 +93,24 @@
                         "nodeType": "geo-feature",
                         "metric": {
                             "source_id": "mmv_performance_country_api",
+                            "source_col": "99th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "99th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_performance_country_api",
                             "source_col": "std",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "Standard deviation",
+                            "label": "Geometric standard deviation",
                             "valueFormat": ",.3r",
                             "valueUnitSuffix": "ms"
                         }
