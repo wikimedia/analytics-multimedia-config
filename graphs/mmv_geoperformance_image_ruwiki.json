@@ -93,6 +93,19 @@
                         "nodeType": "geo-feature",
                         "metric": {
                             "source_id": "mmv_geoperformance_image_ruwiki",
+                            "source_col": "95th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "95th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "metric": {
+                            "source_id": "mmv_geoperformance_image_ruwiki",
                             "source_col": "99th_percentile",
                             "type": "Number"
                         },

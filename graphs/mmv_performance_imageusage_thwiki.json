@@ -90,6 +90,17 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_performance_imageusage_thwiki",
+                            "source_col": "imageusage_time_95th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "imageusage (95th)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_imageusage_thwiki",
                             "source_col": "imageusage_time_99th_percentile",
                             "type": "Number"
                         },

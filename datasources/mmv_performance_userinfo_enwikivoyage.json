@@ -43,6 +43,11 @@
             "type": "Number"
         },
         {
+            "id": "userinfo_time_95th_percentile",
+            "label": "userinfo (95th)",
+            "type": "Number"
+        },
+        {
             "id": "userinfo_time_99th_percentile",
             "label": "userinfo (99th)",
             "type": "Number"

@@ -43,6 +43,11 @@
             "type": "Number"
         },
         {
+            "id": "imageusage_time_95th_percentile",
+            "label": "imageusage (95th)",
+            "type": "Number"
+        },
+        {
             "id": "imageusage_time_99th_percentile",
             "label": "imageusage (99th)",
             "type": "Number"

@@ -43,6 +43,11 @@
             "type": "Number"
         },
         {
+            "id": "imagemiss_time_95th_percentile",
+            "label": "imagemiss (95th)",
+            "type": "Number"
+        },
+        {
             "id": "imagemiss_time_99th_percentile",
             "label": "imagemiss (99th)",
             "type": "Number"

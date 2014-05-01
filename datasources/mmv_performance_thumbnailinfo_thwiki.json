@@ -43,6 +43,11 @@
             "type": "Number"
         },
         {
+            "id": "thumbnailinfo_time_95th_percentile",
+            "label": "thumbnailinfo (95th)",
+            "type": "Number"
+        },
+        {
             "id": "thumbnailinfo_time_99th_percentile",
             "label": "thumbnailinfo (99th)",
             "type": "Number"

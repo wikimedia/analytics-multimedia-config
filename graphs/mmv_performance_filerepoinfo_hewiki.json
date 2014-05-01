@@ -90,6 +90,17 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_performance_filerepoinfo_hewiki",
+                            "source_col": "filerepoinfo_time_95th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "filerepoinfo (95th)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_filerepoinfo_hewiki",
                             "source_col": "filerepoinfo_time_99th_percentile",
                             "type": "Number"
                         },

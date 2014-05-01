@@ -43,6 +43,11 @@
             "type": "Number"
         },
         {
+            "id": "imagehit_time_95th_percentile",
+            "label": "imagehit (95th)",
+            "type": "Number"
+        },
+        {
             "id": "imagehit_time_99th_percentile",
             "label": "imagehit (99th)",
             "type": "Number"

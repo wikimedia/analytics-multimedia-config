@@ -90,6 +90,17 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_performance_%metric%_%wiki%",
+                            "source_col": "%metric%_time_95th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "%metric% (95th)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_%metric%_%wiki%",
                             "source_col": "%metric%_time_99th_percentile",
                             "type": "Number"
                         },

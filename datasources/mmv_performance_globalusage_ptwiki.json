@@ -43,6 +43,11 @@
             "type": "Number"
         },
         {
+            "id": "globalusage_time_95th_percentile",
+            "label": "globalusage (95th)",
+            "type": "Number"
+        },
+        {
             "id": "globalusage_time_99th_percentile",
             "label": "globalusage (99th)",
             "type": "Number"

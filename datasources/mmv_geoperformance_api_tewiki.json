@@ -43,6 +43,11 @@
             "type": "float"
         },
         {
+            "id": "95th_percentile",
+            "label": "95th percentile",
+            "type": "float"
+        },
+        {
             "id": "99th_percentile",
             "label": "99th percentile",
             "type": "float"

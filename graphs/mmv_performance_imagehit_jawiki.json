@@ -90,6 +90,17 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_performance_imagehit_jawiki",
+                            "source_col": "imagehit_time_95th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "imagehit (95th)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_imagehit_jawiki",
                             "source_col": "imagehit_time_99th_percentile",
                             "type": "Number"
                         },

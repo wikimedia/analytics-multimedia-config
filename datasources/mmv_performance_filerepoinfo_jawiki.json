@@ -43,6 +43,11 @@
             "type": "Number"
         },
         {
+            "id": "filerepoinfo_time_95th_percentile",
+            "label": "filerepoinfo (95th)",
+            "type": "Number"
+        },
+        {
             "id": "filerepoinfo_time_99th_percentile",
             "label": "filerepoinfo (99th)",
             "type": "Number"

@@ -43,6 +43,11 @@
             "type": "Number"
         },
         {
+            "id": "%metric%_time_95th_percentile",
+            "label": "%metric% (95th)",
+            "type": "Number"
+        },
+        {
             "id": "%metric%_time_99th_percentile",
             "label": "%metric% (99th)",
             "type": "Number"

@@ -90,6 +90,17 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_performance_imageinfo_enwikivoyage",
+                            "source_col": "imageinfo_time_95th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "imageinfo (95th)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_imageinfo_enwikivoyage",
                             "source_col": "imageinfo_time_99th_percentile",
                             "type": "Number"
                         },

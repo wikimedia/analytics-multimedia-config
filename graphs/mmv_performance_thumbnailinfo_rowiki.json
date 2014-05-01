@@ -90,6 +90,17 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_performance_thumbnailinfo_rowiki",
+                            "source_col": "thumbnailinfo_time_95th_percentile",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thumbnailinfo (95th)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_performance_thumbnailinfo_rowiki",
                             "source_col": "thumbnailinfo_time_99th_percentile",
                             "type": "Number"
                         },
