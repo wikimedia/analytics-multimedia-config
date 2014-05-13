@@ -9,6 +9,9 @@
         "width": "auto",
         "height": 500,
         "children": [
+			{
+				"template": "zoom-brush"
+			},
             {
                 "nodeType": "axis",
                 "options": {
