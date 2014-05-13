@@ -10,7 +10,7 @@
         "height": 700,
         "children": [
 			{
-				"template": "zoom-pan"
+				"nodeType": "zoom-pan"
 			},
             {
                 "nodeType": "geo-map",

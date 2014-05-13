@@ -10,7 +10,7 @@
         "height": 500,
         "children": [
 			{
-				"template": "zoom-brush"
+				"nodeType": "zoom-brush"
 			},
             {
                 "nodeType": "axis",
