@@ -39,7 +39,12 @@
         },
         {
             "id": "file-description-page",
-            "label": "file description page",
+            "label": "description page (below fold)",
+            "type": "Number"
+        },
+        {
+            "id": "file-description-page-abovefold",
+            "label": "description page (above fold)",
             "type": "Number"
         },
         {
