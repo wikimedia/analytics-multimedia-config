@@ -38,6 +38,11 @@
             "type": "Number"
         },
         {
+            "id": "view-original-file",
+            "label": "view original file",
+            "type": "Number"
+        },
+        {
             "id": "file-description-page",
             "label": "description page (below fold)",
             "type": "Number"
