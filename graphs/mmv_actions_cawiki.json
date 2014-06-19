@@ -1,7 +1,7 @@
 {
     "graph_version": "0.6.0",
     "id": "mmv_actions_cawiki",
-    "desc": "<b>thumbnail click</b> how many times users clicked on a thumbnail which opened media viewer<br><b>enlarge click</b> how many times users clicked on the \"enlarge\" icon next to the thumbnail which opened media viewer<br><b>fullscreen</b> how many times users went into fullscreen mode<br><b>defullscreen</b> how many times users exited fullscreen mode<br><b>close</b> how many times users closed media viewer<br><b>file description page</b> how many times users visited that image's File: page<br><b>use this file open</b> how many times users opened \"use this file\"<br><b>image view</b> how many times users viewed an image<br><b>metadata open</b> how many times users opened the metadata panel<br><b>metadata close</b> how many times users closed the metadata panel<br><b>next image</b> how many times users navigated to the next image<br><b>prev image</b> how many times users navigated to the previous image<br><b>terms open</b> how many times users opened the usage terms<br><b>license page</b> how many times users visited that image's license page<br><b>author</b> how many times users visited that image's author page<br><b>source page</b> how many times users visited that image's source page<br><b>hash load</b> how many times users opened Media Viewer through a hash link<br><b>history navigation</b> how many times users navigated within Media Viewer using their browser's history",
+    "desc": "<b>thumbnail click</b> how many times users clicked on a thumbnail which opened media viewer<br><b>enlarge click</b> how many times users clicked on the \"enlarge\" icon next to the thumbnail which opened media viewer<br><b>fullscreen</b> how many times users went into fullscreen mode<br><b>defullscreen</b> how many times users exited fullscreen mode<br><b>close</b> how many times users closed media viewer<br><b>view original file</b> how many times users clicked on the icon to view the original file<br><b>file description page</b> how many times users visited that image's File: page<br><b>file description page (above fold)</b> how many times users visited that image's File: page using the above-the-fold icon<br><b>use this file open</b> how many times users opened \"use this file\"<br><b>image view</b> how many times users viewed an image<br><b>metadata open</b> how many times users opened the metadata panel<br><b>metadata close</b> how many times users closed the metadata panel<br><b>next image</b> how many times users navigated to the next image<br><b>prev image</b> how many times users navigated to the previous image<br><b>terms open</b> how many times users opened the usage terms<br><b>license page</b> how many times users visited that image's license page<br><b>author</b> how many times users visited that image's author page<br><b>source page</b> how many times users visited that image's source page<br><b>hash load</b> how many times users opened Media Viewer through a hash link<br><b>history navigation</b> how many times users navigated within Media Viewer using their browser's history<br><b>opt-out (loggedin)</b> how many times logged-in users disabled Media Viewer<br><b>opt-out (anon)</b> how many times anonymous users disabled Media Viewer<br><b>opt-in (loggedin)</b> how many times logged-in users enabled Media Viewer<br><b>opt-in (anon)</b> how many times anonymous users disabled Media Viewer",
     "name": "Actions",
     "slug": "mmv_actions_cawiki",
     "root": {
@@ -104,11 +104,33 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_actions_cawiki",
+                            "source_col": "view-original-file",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "view original file"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_cawiki",
                             "source_col": "file-description-page",
                             "type": "Number"
                         },
                         "options": {
                             "label": "file description page"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_cawiki",
+                            "source_col": "file-description-page-abovefold",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file description page (above fold)"
                         }
                     },
                     {
@@ -241,6 +263,50 @@
                         },
                         "options": {
                             "label": "history navigation"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_cawiki",
+                            "source_col": "optout-loggedin",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "opt-out (loggedin)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_cawiki",
+                            "source_col": "optout-anon",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "opt-out (anon)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_cawiki",
+                            "source_col": "optin-loggedin",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "opt-in (loggedin)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_cawiki",
+                            "source_col": "optin-anon",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "opt-in (anon)"
                         }
                     }
                 ]
