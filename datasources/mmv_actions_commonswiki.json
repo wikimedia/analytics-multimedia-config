@@ -111,6 +111,26 @@
             "id": "history-navigation",
             "label": "history nagivation",
             "type": "Number"
+        },
+        {
+            "id": "optout-loggedin",
+            "label": "logged-in user opting out",
+            "type": "Number"
+        },
+        {
+            "id": "optout-anon",
+            "label": "anonymous user opting out",
+            "type": "Number"
+        },
+        {
+            "id": "optin-loggedin",
+            "label": "logged-in user opting in",
+            "type": "Number"
+        },
+        {
+            "id": "optin-anon",
+            "label": "anonymous user opting in",
+            "type": "Number"
         }
     ]
 }
