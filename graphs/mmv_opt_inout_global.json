@@ -1,7 +1,7 @@
 {
     "graph_version": "0.6.0",
     "id": "mmv_opt_inout_global",
-    "desc": "<b>opt-out (loggedin)</b> how many times logged-in users disabled Media Viewer<br><b>opt-out (anon)</b> how many times anonymous users disabled Media Viewer<br><b>opt-in (loggedin)</b> how many times logged-in users enabled Media Viewer<br><b>opt-in (anon)</b> how many times anonymous users enabled Media Viewer",
+    "desc": "<b>opt-out (total)</b> how many times users disabled Media Viewer<br><b>opt-out (loggedin)</b> how many times logged-in users disabled Media Viewer<br><b>opt-out (anon)</b> how many times anonymous users disabled Media Viewer<br><b>opt-in (total)</b> how many times users enabled Media Viewer<br><b>opt-in (loggedin)</b> how many times logged-in users enabled Media Viewer<br><b>opt-in (anon)</b> how many times anonymous users enabled Media Viewer",
     "name": "Opt-in and opt-out events",
     "slug": "mmv_opt_inout_global",
     "root": {
@@ -49,6 +49,17 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_actions_global",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "opt-out (total)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_global",
                             "source_col": "optout-loggedin",
                             "type": "Number"
                         },
@@ -65,6 +76,17 @@
                         },
                         "options": {
                             "label": "opt-out (anon)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_global",
+                            "source_col": "optin-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "opt-in (total)"
                         }
                     },
                     {
