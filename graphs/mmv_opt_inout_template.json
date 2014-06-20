@@ -1,0 +1,96 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_opt_inout_%wiki%",
+    "desc": "<b>opt-out (loggedin)</b> how many times logged-in users disabled Media Viewer<br><b>opt-out (anon)</b> how many times anonymous users disabled Media Viewer<br><b>opt-in (loggedin)</b> how many times logged-in users enabled Media Viewer<br><b>opt-in (anon)</b> how many times anonymous users enabled Media Viewer",
+    "name": "Opt-in and opt-out events",
+    "slug": "mmv_opt_inout_%wiki%",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "optout-loggedin",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "opt-out (loggedin)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "optout-anon",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "opt-out (anon)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "optin-loggedin",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "opt-in (loggedin)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "optin-anon",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "opt-in (anon)"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -36,6 +36,12 @@
 			"graph_ids": [
 				"mmv_versus_file_page"
 			]
+		},
+		{
+			"name": "Opt-in and opt-out",
+			"graph_ids": [
+				"mmv_opt_inout_global"
+			]
 		}
 	]
 }
