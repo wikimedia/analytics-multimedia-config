@@ -55,6 +55,7 @@ $templates = array(
 	'./graphs/mmv_geoperformance' => $geoperformance_metrics,
 	'./datasources/mmv_actions' => null,
 	'./graphs/mmv_actions' => null,
+	'./graphs/mmv_opt_inout' => null,
 );
 
 function generate( $wiki, $templates ) {

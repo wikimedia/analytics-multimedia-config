@@ -131,6 +131,16 @@
             "id": "optin-anon",
             "label": "anonymous user opting in",
             "type": "Number"
+        },
+        {
+            "id": "optout-total",
+            "label": "user opting out",
+            "type": "Number"
+        },
+        {
+            "id": "optin-total",
+            "label": "user opting in",
+            "type": "Number"
         }
     ]
 }

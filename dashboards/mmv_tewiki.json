@@ -29,6 +29,12 @@
 				"mmv_geoperformance_api_tewiki",
 				"mmv_geoperformance_image_tewiki"
 			]
+		},
+		{
+			"name": "Opt-in opt-out",
+			"graph_ids": [
+				"mmv_opt_inout_tewiki"
+			]
 		}
 	]
 }

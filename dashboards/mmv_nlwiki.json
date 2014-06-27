@@ -29,6 +29,12 @@
 				"mmv_geoperformance_api_nlwiki",
 				"mmv_geoperformance_image_nlwiki"
 			]
+		},
+		{
+			"name": "Opt-in opt-out",
+			"graph_ids": [
+				"mmv_opt_inout_nlwiki"
+			]
 		}
 	]
 }

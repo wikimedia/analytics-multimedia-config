@@ -137,6 +137,17 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_actions_mediawikiwiki",
+                            "source_col": "file-description-page-abovefold",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file description page (above fold)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_mediawikiwiki",
                             "source_col": "use-this-file-open",
                             "type": "Number"
                         },
