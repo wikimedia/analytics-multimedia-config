@@ -137,17 +137,6 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_actions_kowiki",
-                            "source_col": "file-description-page-abovefold",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "file description page (above fold)"
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "metric": {
-                            "source_id": "mmv_actions_kowiki",
                             "source_col": "use-this-file-open",
                             "type": "Number"
                         },
@@ -274,50 +263,6 @@
                         },
                         "options": {
                             "label": "history navigation"
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "metric": {
-                            "source_id": "mmv_actions_kowiki",
-                            "source_col": "optout-loggedin",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "opt-out (loggedin)"
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "metric": {
-                            "source_id": "mmv_actions_kowiki",
-                            "source_col": "optout-anon",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "opt-out (anon)"
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "metric": {
-                            "source_id": "mmv_actions_kowiki",
-                            "source_col": "optin-loggedin",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "opt-in (loggedin)"
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "metric": {
-                            "source_id": "mmv_actions_kowiki",
-                            "source_col": "optin-anon",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "opt-in (anon)"
                         }
                     }
                 ]
