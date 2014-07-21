@@ -1,0 +1,122 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_optout_%wiki%",
+    "desc": "Tracking how many people have opted out of Media Vieweron %wiki%.<br><b>logged-in</b> users who have made a login or change in the last 30 days<br><b>active</b> users who made 5+ edits in the last 30 days",
+    "name": "Optout",
+    "slug": "mmv_optout_%wiki%",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_optout_%wiki%",
+                            "source_col": "optout_touched_percent",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "% of opted-out in logged-in users"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_optout_%wiki%",
+                            "source_col": "optout_touched",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "# of logged-in users who opted out",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_optout_%wiki%",
+                            "source_col": "all_touched",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "# of logged-in users total",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_optout_%wiki%",
+                            "source_col": "optout_active_percent",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "% of opted-out in active users"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_optout_%wiki%",
+                            "source_col": "optout_active",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "# of active users who opted out",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_optout_%wiki%",
+                            "source_col": "all_active",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "# of active users total",
+                            "disabled": true
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

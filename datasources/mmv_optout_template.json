@@ -1,0 +1,46 @@
+{
+    "id": "mmv_optout_%wiki%",
+    "slug": "mmv_optout_%wiki%",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1003.wikimedia.org/public-datasets/all/multimedia/media-viewer-optout-%wiki%.tsv",
+    "name": "Optouts: %wiki%",
+    "shortName": "mmv_optout_%wiki%",
+    "columns": [
+        {
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
+        },
+        {
+            "id": "optout_touched_percent",
+            "label": "Percentage of logged-in users who oped out",
+            "type": "Number"
+        },
+        {
+            "id": "optout_touched",
+            "label": "Number of logged-in users who opted out",
+            "type": "Number"
+        },
+        {
+            "id": "all_touched",
+            "label": "Total number of logged-in users",
+            "type": "Number"
+        },
+        {
+            "id": "optout_active_percent",
+            "label": "Percentage of active users who opted out",
+            "type": "Number"
+        },
+        {
+            "id": "optout_active",
+            "label": "Number of active users who opted out",
+            "type": "Number"
+        },
+        {
+            "id": "all_active",
+            "label": "Total number of active users",
+            "type": "Number"
+        },
+    ]
+}
