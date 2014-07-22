@@ -67,7 +67,7 @@ def generate(wiki, templates):
         sys.exit(1);
 
     for template, metrics in templates.items():
-        json = open(template + '_template.json').read(10000)
+        json = open(template + '_template.json').read(100000)
         json = json.replace('%wiki%', wiki)
 
         if metrics:
