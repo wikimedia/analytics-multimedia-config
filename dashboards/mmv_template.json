@@ -34,7 +34,7 @@
 			"name": "Opt-in opt-out",
 			"graph_ids": [
 				"mmv_opt_inout_%wiki%",
-				"mmv_optout_'%wiki%",
+				"mmv_optout_%wiki%"
 			]
 		}
 	]
