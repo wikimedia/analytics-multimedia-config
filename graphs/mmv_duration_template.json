@@ -1,7 +1,7 @@
 {
     "graph_version": "0.6.0",
     "id": "mmv_duration_%wiki%",
-    "desc": "Loading time of file pages (using onload event) and Media Viewer",
+    "desc": "Loading time of file pages and Media Viewer<br><b>file page</b> loading time for file page views (using the mediaWikiLoadComplete field from NavigationTiming data, which is based on the domready event)<br><b>Media Viewer</b> time from thumbnail click to displaying the final image; only measured the first time Media Viewer is opened on a given page. Subsequent invocations are heavily preloaded so it is not clear what would be a fair comparison.",
     "name": "Loading time",
     "slug": "mmv_duration_%wiki%",
     "root": {
