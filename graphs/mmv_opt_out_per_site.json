@@ -1,0 +1,349 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_opt_out_per_wiki",
+    "desc": "Total opt-out events per wiki",
+    "name": "Opt-out events per wiki",
+    "slug": "mmv_opt_out_per_wiki",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_global",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "global"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_cawiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "cawiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_commonswiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "commonswiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_czwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "czwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_dewiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "dewiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_enwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "enwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_enwikivoyage",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "enwikivoyage"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_eswiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "eswiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_etwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "etwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_fiwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "fiwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_frwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "frwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_hewiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "hewiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_huwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "huwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_itwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "itwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_jawiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "jawiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_kowiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "kowiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_mediawikiwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "mediawikiwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_nlwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "nlwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_plwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "plwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_ptwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "ptwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_rowiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "rowiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_ruwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "ruwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_skwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "skwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_svwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "svwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_tewiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "tewiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_thwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thwiki"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_viwiki",
+                            "source_col": "optout-total",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "viwiki"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

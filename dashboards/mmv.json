@@ -42,7 +42,7 @@
 			"name": "Opt-in and opt-out",
 			"graph_ids": [
 				"mmv_opt_inout_global",
-				"mmv_opt_out_per_wiki",
+				"mmv_opt_out_per_site",
 				"mmv_optout_global"
 			]
 		}
