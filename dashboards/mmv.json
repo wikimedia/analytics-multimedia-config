@@ -7,7 +7,7 @@
 			"name": "Actions",
 			"graph_ids": [
 				"mmv_actions_global",
-				"mmv_image_views_global"
+				"mmv_image_views_per_site"
 			]
 		},
 		{
