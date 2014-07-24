@@ -103,11 +103,11 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_duration_%wiki%",
-                            "source_col": "filepage_loggedin_sample_size",
+                            "source_col": "filepage_loggedin_population_size",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "file page (logged-in), sample size",
+                            "label": "file page (logged-in), population size",
                             "disabled": true
                         }
                     },
@@ -169,11 +169,11 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_duration_%wiki%",
-                            "source_col": "filepage_anon_sample_size",
+                            "source_col": "filepage_anon_population_size",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "file page (anonymous), sample size",
+                            "label": "file page (anonymous), population size",
                             "disabled": true
                         }
                     },
@@ -235,11 +235,11 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_duration_%wiki%",
-                            "source_col": "mediaviewer_sample_size",
+                            "source_col": "mediaviewer_population_size",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "Media Viewer, sample size",
+                            "label": "Media Viewer, population size",
                             "disabled": true
                         }
                     }
