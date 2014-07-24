@@ -41,6 +41,6 @@
             "id": "all_active",
             "label": "Total number of active users",
             "type": "Number"
-        },
+        }
     ]
 }
