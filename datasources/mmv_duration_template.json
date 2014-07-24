@@ -1,0 +1,91 @@
+{
+    "id": "mmv_duration_%wiki%",
+    "slug": "mmv_duration_%wiki%",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-duration-%wiki%.tsv",
+    "name": "Actions: %wiki%",
+    "shortName": "mmv_duration_%wiki%",
+    "columns": [
+        {
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
+        },
+        {
+            "id": "filepage_loggedin_50",
+            "label": "Logged-in file page load time (median)",
+            "type": "Number"
+        },
+        {
+            "id": "filepage_loggedin_90",
+            "label": "Logged-in file page load time (90th percentile)",
+            "type": "Number"
+        },
+        {
+            "id": "filepage_loggedin_95",
+            "label": "Logged-in file page load time (95th percentile)",
+            "type": "Number"
+        },
+        {
+            "id": "filepage_loggedin_99",
+            "label": "Logged-in file page load time (99th percentile)",
+            "type": "Number"
+        },
+        {
+            "id": "filepage_loggedin_sample_size",
+            "label": "Logged-in sample size",
+            "type": "Number"
+        },
+        {
+            "id": "filepage_anon_50",
+            "label": "Anonymous file page load time (median)",
+            "type": "Number"
+        },
+        {
+            "id": "filepage_anon_90",
+            "label": "Anonymous file page load time (90th percentile)",
+            "type": "Number"
+        },
+        {
+            "id": "filepage_anon_95",
+            "label": "Anonymous file page load time (95th percentile)",
+            "type": "Number"
+        },
+        {
+            "id": "filepage_anon_99",
+            "label": "Anonymous file page load time (99th percentile)",
+            "type": "Number"
+        },
+        {
+            "id": "filepage_anon_sample_size",
+            "label": "Anonymous sample size",
+            "type": "Number"
+        },
+        {
+            "id": "mediaviewer_50",
+            "label": "Media Viewer load time (median)",
+            "type": "Number"
+        },
+        {
+            "id": "mediaviewer_90",
+            "label": "Media Viewer load time (90th percentile)",
+            "type": "Number"
+        },
+        {
+            "id": "mediaviewer_95",
+            "label": "Media Viewer load time (95th percentile)",
+            "type": "Number"
+        },
+        {
+            "id": "mediaviewer_99",
+            "label": "Media Viewer load time (99th percentile)",
+            "type": "Number"
+        },
+        {
+            "id": "mediaviewer_sample_size",
+            "label": "Media Viewer sample size",
+            "type": "Number"
+        }
+    ]
+}

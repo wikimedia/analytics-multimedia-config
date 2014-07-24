@@ -1,0 +1,250 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_duration_%wiki%",
+    "desc": "Loading time of file pages (using onload event) and Media Viewer",
+    "name": "Loading time",
+    "slug": "mmv_duration_%wiki%",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "filepage_loggedin_50",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file page (logged-in), median",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "filepage_loggedin_90",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file page (logged-in), 90th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "filepage_loggedin_95",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file page (logged-in), 95th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "filepage_loggedin_99",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file page (logged-in), 99th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "filepage_loggedin_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file page (logged-in), sample size",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "filepage_anon_50",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file page (anonymous), median",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "filepage_anon_90",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file page (anonymous), 90th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "filepage_anon_95",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file page (anonymous), 95th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "filepage_anon_99",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file page (anonymous), 99th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "filepage_anon_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file page (anonymous), sample size",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "mediaviewer_50",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "Media Viewer, median",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "mediaviewer_90",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "Media Viewer, 90th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "mediaviewer_95",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "Media Viewer, 95th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "mediaviewer_99",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "Media Viewer, 99th percentile",
+                            "valueFormat": ",.3r",
+                            "valueUnitSuffix": "ms",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_duration_%wiki%",
+                            "source_col": "mediaviewer_sample_size",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "Media Viewer, sample size",
+                            "disabled": true
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

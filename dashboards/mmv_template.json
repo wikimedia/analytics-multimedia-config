@@ -31,6 +31,12 @@
 			]
 		},
 		{
+			"name": "Media Viewer vs File page",
+			"graph_ids": [
+				"mmv_duration_%wiki%"
+			]
+		},
+		{
 			"name": "Opt-in opt-out",
 			"graph_ids": [
 				"mmv_opt_inout_%wiki%",

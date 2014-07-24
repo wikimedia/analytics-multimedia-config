@@ -46,7 +46,7 @@ performance_metrics = {
 
 geoperformance_metrics = {
     'api': 'Average duration of API calls per country, in milliseconds. The lower, the better.',
-    'image': 'Average duration of image loads per country, in milliseconds. The lower, the better.'
+    'image': 'Average duration of image loads per country, in milliseconds. The lower, the better.',
 }
 
 templates = {
@@ -60,6 +60,8 @@ templates = {
     './graphs/mmv_opt_inout': None,
     './datasources/mmv_optout': None,
     './graphs/mmv_optout': None,
+    './datasources/mmv_duration': None,
+    './graphs/mmv_duration': None,
 }
 
 def generate(wiki, templates):
