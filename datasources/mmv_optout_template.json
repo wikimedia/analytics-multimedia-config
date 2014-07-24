@@ -41,6 +41,21 @@
             "id": "optout_active_percent",
             "label": "Percentage of active users who opted out",
             "type": "Number"
+        },
+        {
+            "id": "all_very_active",
+            "label": "Total number of very active users",
+            "type": "Number"
+        },
+        {
+            "id": "optout_very_active",
+            "label": "Number of very active users who opted out",
+            "type": "Number"
+        },
+        {
+            "id": "optout_very_active_percent",
+            "label": "Percentage of very active users who opted out",
+            "type": "Number"
         }
     ]
 }

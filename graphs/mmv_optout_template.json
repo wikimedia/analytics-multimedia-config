@@ -114,6 +114,41 @@
                             "label": "# of active users total",
                             "disabled": true
                         }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_optout_%wiki%",
+                            "source_col": "optout_very_active_percent",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "% of opted-out in very active users"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_optout_%wiki%",
+                            "source_col": "optout_very_active",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "# of very active users who opted out",
+                            "disabled": true
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_optout_%wiki%",
+                            "source_col": "all_very_active",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "# of very active users total",
+                            "disabled": true
+                        }
                     }
                 ]
             }
