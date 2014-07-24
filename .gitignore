@@ -1,6 +1,9 @@
 dashboards/mmv_*wiki.json
 dashboards/mmv_*wikivoyage.json
+dashboards/mmv_*global.json
 datasources/mmv_*wiki.json
 datasources/mmv_*wikivoyage.json
+datasources/mmv_*global.json
 graphs/mmv_*wiki.json
 graphs/mmv_*wikivoyage.json
+graphs/mmv_*global.json

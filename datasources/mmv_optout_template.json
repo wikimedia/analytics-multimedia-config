@@ -3,7 +3,7 @@
     "slug": "mmv_optout_%wiki%",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1003.wikimedia.org/public-datasets/all/multimedia/media-viewer-optout-%wiki%.tsv",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-optout-%wiki%.tsv",
     "name": "Optouts: %wiki%",
     "shortName": "mmv_optout_%wiki%",
     "columns": [
