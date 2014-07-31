@@ -1,0 +1,13 @@
+{
+	"id": "uw",
+	"headline": "UploadWizard",
+	"subhead": "global metrics",
+	"tabs": [
+		{
+			"name": "Funnel",
+			"graph_ids": [
+				"uw_funnel"
+			]
+		}
+	]
+}

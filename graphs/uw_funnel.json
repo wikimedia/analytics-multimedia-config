@@ -1,0 +1,67 @@
+{
+    "graph_version": "0.6.0",
+    "id": "uw_funnel",
+    "desc": "<a href=\"https://en.wikipedia.org/wiki/Funnel_chart\">Funnel analysis for Upload Wizard</a>",
+    "name": "Funnel analysis",
+    "slug": "uw_funnel",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x",
+                    "label": "step"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend"
+                }
+            },
+            {
+                "nodeType": "bar-group",
+                "children": [
+                    {
+                        "nodeType": "bar",
+                        "metric": {
+                            "source_id": "uw_funnel",
+                            "source_col": "absolute",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "Number of users reaching this step"
+                        }
+                    },
+                    {
+                        "nodeType": "ordinal-bar",
+                        "metric": {
+                            "source_id": "uw_funnel",
+                            "source_col": "relative",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "Fraction of users surviving this step",
+                            "disabled": true
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
