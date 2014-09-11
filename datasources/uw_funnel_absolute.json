@@ -1,0 +1,41 @@
+{
+    "id": "uw_funnel_absolute",
+    "slug": "uw_funnel_absolute",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/upload-wizard-funnel-absolute.tsv",
+    "name": "Funnel",
+    "shortName": "uw_funnel_absolute",
+    "columns": [
+        {
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
+        },
+        {
+            "id": "tutorial",
+            "label": "Tutorial survivors (number of users surviving until this step)",
+            "type": "Number"
+        },
+        {
+            "id": "file",
+            "label": "File survivors (number of users surviving until this step)",
+            "type": "Number"
+        },
+        {
+            "id": "deeds",
+            "label": "Deeds survivors (number of users surviving until this step)",
+            "type": "Number"
+        },
+        {
+            "id": "details",
+            "label": "Details survivors (number of users surviving until this step)",
+            "type": "Number"
+        },
+        {
+            "id": "thanks",
+            "label": "Thanks survivors (number of users surviving until this step)",
+            "type": "Number"
+        }
+    ]
+}

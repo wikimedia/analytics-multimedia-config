@@ -1,11 +1,11 @@
 {
-    "id": "uw_funnel",
-    "slug": "uw_funnel",
+    "id": "uw_funnel_relative",
+    "slug": "uw_funnel_relative",
     "format": "tsv",
     "type": "series",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/upload-wizard-funnel.tsv",
+    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/upload-wizard-funnel-relative.tsv",
     "name": "Funnel",
-    "shortName": "uw_funnel",
+    "shortName": "uw_funnel_relative",
     "columns": [
         {
             "id": "step",

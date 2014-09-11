@@ -1,0 +1,107 @@
+{
+    "graph_version": "0.6.0",
+    "id": "uw_funnel_absolute",
+    "desc": "<a href=\"https://en.wikipedia.org/wiki/Funnel_chart\">Funnel analysis for Upload Wizard</a>. Displays the absolute survivors over the last 30 days.",
+    "name": "Funnel analysis (absolute over time)",
+    "slug": "uw_funnel_absolute",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "uw_funnel_absolute",
+                            "source_col": "tutorial",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "tutorial"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "uw_funnel_absolute",
+                            "source_col": "file",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "uw_funnel_absolute",
+                            "source_col": "deeds",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "deeds"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "uw_funnel_absolute",
+                            "source_col": "details",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "details"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "uw_funnel_absolute",
+                            "source_col": "thanks",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thanks"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

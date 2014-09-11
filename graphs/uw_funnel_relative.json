@@ -1,9 +1,9 @@
 {
     "graph_version": "0.6.0",
-    "id": "uw_funnel",
-    "desc": "<a href=\"https://en.wikipedia.org/wiki/Funnel_chart\">Funnel analysis for Upload Wizard</a>",
-    "name": "Funnel analysis",
-    "slug": "uw_funnel",
+    "id": "uw_funnel_relative",
+    "desc": "<a href=\"https://en.wikipedia.org/wiki/Funnel_chart\">Funnel analysis for Upload Wizard</a>. The data displayed is the average over the last 30 days. The value for each step is the percentage of users surviving this step to the next one.",
+    "name": "Funnel analysis (relative, average over last 30 days)",
+    "slug": "uw_funnel_relative",
     "root": {
         "nodeType": "canvas",
         "width": "auto",
@@ -40,24 +40,12 @@
                     {
                         "nodeType": "bar",
                         "metric": {
-                            "source_id": "uw_funnel",
-                            "source_col": "absolute",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "Number of users reaching this step"
-                        }
-                    },
-                    {
-                        "nodeType": "ordinal-bar",
-                        "metric": {
-                            "source_id": "uw_funnel",
+                            "source_id": "uw_funnel_relative",
                             "source_col": "relative",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "Fraction of users surviving this step",
-                            "disabled": true
+                            "label": "Fraction of users surviving this step"
                         }
                     }
                 ]

@@ -6,7 +6,8 @@
 		{
 			"name": "Funnel",
 			"graph_ids": [
-				"uw_funnel"
+				"uw_funnel_absolute",
+				"uw_funnel_relative"
 			]
 		}
 	]
