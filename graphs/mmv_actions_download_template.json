@@ -1,0 +1,118 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_actions_download_%wiki%",
+    "desc": "<b>download</b> how many times users downloaded the image using the download button<br><b>view in browser</b> how many times users viewed the original using the \"view in browser\" link<br><b>select original</b> how many times users selected the original size for the download<br><b>select small</b> how many times users selected the small size for the download<br><b>select medium</b> how many times users selected the medium size for the download<br><b>select large</b> how many times users selected the large size for the download<br>",
+    "name": "Download actions",
+    "slug": "mmv_actions_download_%wiki%",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+			{
+				"nodeType": "zoom-brush"
+			},
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "download",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "download"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "download-view-in-browser",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "view in browser"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "download-select-menu-original",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select original"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "download-select-menu-small",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select small"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "download-select-menu-medium",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select medium"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "download-select-menu-large",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select large"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

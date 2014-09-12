@@ -141,6 +141,136 @@
             "id": "optin-total",
             "label": "user opting in",
             "type": "Number"
+        },
+        {
+            "id": "about-page",
+            "label": "about page",
+            "type": "Number"
+        },
+        {
+            "id": "discuss-page",
+            "label": "discuss page",
+            "type": "Number"
+        },
+        {
+            "id": "help-page",
+            "label": "help page",
+            "type": "Number"
+        },
+        {
+            "id": "location-page",
+            "label": "location page",
+            "type": "Number"
+        },
+        {
+            "id": "uploader-page",
+            "label": "uploader page",
+            "type": "Number"
+        },
+        {
+            "id": "download-select-menu-original",
+            "label": "download (select original)",
+            "type": "Number"
+        },
+        {
+            "id": "download-select-menu-small",
+            "label": "download (select small)",
+            "type": "Number"
+        },
+        {
+            "id": "download-select-menu-medium",
+            "label": "download (select medium)",
+            "type": "Number"
+        },
+        {
+            "id": "download-select-menu-large",
+            "label": "download (select large)",
+            "type": "Number"
+        },
+        {
+            "id": "download",
+            "label": "download",
+            "type": "Number"
+        },
+        {
+            "id": "download-view-in-browser",
+            "label": "download (view in browser)",
+            "type": "Number"
+        },
+        {
+            "id": "share-page",
+            "label": "share page",
+            "type": "Number"
+        },
+        {
+            "id": "share-link-copied",
+            "label": "share link copied",
+            "type": "Number"
+        },
+        {
+            "id": "embed-html-copied",
+            "label": "embed html copied",
+            "type": "Number"
+        },
+        {
+            "id": "embed-wikitext-copied",
+            "label": "embed wikitext copied",
+            "type": "Number"
+        },
+        {
+            "id": "embed-switched-to-html",
+            "label": "embed (switched to html)",
+            "type": "Number"
+        },
+        {
+            "id": "embed-switched-to-wikitext",
+            "label": "embed (switched to wikitext)",
+            "type": "Number"
+        },
+        {
+            "id": "embed-select-menu-wikitext-default",
+            "label": "embed (select wikitext default)",
+            "type": "Number"
+        },
+        {
+            "id": "embed-select-menu-wikitext-small",
+            "label": "embed (select wikitext small)",
+            "type": "Number"
+        },
+        {
+            "id": "embed-select-menu-wikitext-medium",
+            "label": "embed (select wikitext medium)",
+            "type": "Number"
+        },
+        {
+            "id": "embed-select-menu-wikitext-large",
+            "label": "embed (select wikitext large)",
+            "type": "Number"
+        },
+        {
+            "id": "embed-select-menu-html-original",
+            "label": "embed (select html original)",
+            "type": "Number"
+        },
+        {
+            "id": "embed-select-menu-html-small",
+            "label": "embed (select html small)",
+            "type": "Number"
+        },
+        {
+            "id": "embed-select-menu-html-medium",
+            "label": "embed (select html medium)",
+            "type": "Number"
+        },
+        {
+            "id": "embed-select-menu-html-large",
+            "label": "embed (select html large)",
+            "type": "Number"
+        },
+        {
+            "id": "use-this-file-close",
+            "label": "use this file closed",
+            "type": "Number"
         }
     ]
 }

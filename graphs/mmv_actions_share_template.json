@@ -1,0 +1,74 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_actions_share_wiki%",
+    "desc": "<b>share page</b> how many times users opened the share page<br><b>share link copied</b> how many times users copied the share link<br>",
+    "name": "Share actions",
+    "slug": "mmv_actions_share_%wiki%",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+			{
+				"nodeType": "zoom-brush"
+			},
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "share-page",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "share page"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "share-link-copied",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "share link copied"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

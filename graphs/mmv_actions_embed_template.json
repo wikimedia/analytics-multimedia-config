@@ -1,0 +1,184 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_actions_embed_%wiki%",
+    "desc": "<b>html copied</b> how many times users copied the html snipper<br><b>wikitext copied</b> how many times users copied the wikitext snippet<br><b>switched to html</b> how many times users switched to html<br><b>switched to wikitext</b> how many times users switched to wikitext<br><b>select wikitext default</b> how many times users selected the default wikitext size<br><b>select wikitext small</b> how many times users selected the small wikitext size<br><b>select wikitext medium</b> how many times users selected the medium wikitext size<br><b>select wikitext large</b> how many times users selected the large wikitext size<br><b>select html original</b> how many times users selected the original html size<br><b>select html small</b> how many times users selected the small html size<br><b>select html medium</b> how many times users selected the medium html size<br><b>select html large</b> how many times users selected the large html size<br>",
+    "name": "Embed actions",
+    "slug": "mmv_actions_embed_%wiki%",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+			{
+				"nodeType": "zoom-brush"
+			},
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-html-copied",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "html copied"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-wikitext-copied",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "wikitext copied"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-switched-to-html",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "switched to html"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-switched-to-wikitext",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "switched to wikitext"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-select-menu-wikitext-default",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select wikitext default"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-select-menu-wikitext-small",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select wikitext small"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-select-menu-wikitext-medium",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select wikitext medium"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-select-menu-wikitext-large",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select wikitext large"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-select-menu-html-original",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select html original"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-select-menu-html-small",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select html small"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-select-menu-html-medium",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select html medium"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "embed-select-menu-html-large",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "select html large"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
