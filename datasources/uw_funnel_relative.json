@@ -2,24 +2,34 @@
     "id": "uw_funnel_relative",
     "slug": "uw_funnel_relative",
     "format": "tsv",
-    "type": "series",
+    "type": "timeseries",
     "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/upload-wizard-funnel-relative.tsv",
     "name": "Funnel",
     "shortName": "uw_funnel_relative",
     "columns": [
         {
-            "id": "step",
-            "label": "Step",
-            "type": "String"
+            "id": "datestring",
+            "label": "datestring",
+            "type": "Date"
         },
         {
-            "id": "relative",
-            "label": "Relative (ratio of users who survived the last step)",
+            "id": "tutorial",
+            "label": "Tutorial survivors (ratio of users surviving from tutorial to file step)",
             "type": "Number"
         },
         {
-            "id": "absolute",
-            "label": "Absolute (number of users surviving until this step)",
+            "id": "file",
+            "label": "File survivors (ratio of users surviving from file to deeds step)",
+            "type": "Number"
+        },
+        {
+            "id": "deeds",
+            "label": "Deeds survivors (ratio of users surviving from deeds to details step)",
+            "type": "Number"
+        },
+        {
+            "id": "details",
+            "label": "Details survivors (ratio of users surviving from details to thanks step)",
             "type": "Number"
         }
     ]

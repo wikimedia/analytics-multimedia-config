@@ -1,8 +1,8 @@
 {
     "graph_version": "0.6.0",
     "id": "uw_funnel_relative",
-    "desc": "<a href=\"https://en.wikipedia.org/wiki/Funnel_chart\">Funnel analysis for Upload Wizard</a>. The data displayed is the average over the last 30 days. The value for each step is the percentage of users surviving this step to the next one.",
-    "name": "Funnel analysis (relative, average over last 30 days)",
+    "desc": "<a href=\"https://en.wikipedia.org/wiki/Funnel_chart\">Funnel analysis for Upload Wizard</a>. Displays the daily survival rate of each step over the last 30 days.",
+    "name": "Funnel analysis (relative over time)",
     "slug": "uw_funnel_relative",
     "root": {
         "nodeType": "canvas",
@@ -10,19 +10,26 @@
         "height": 500,
         "children": [
             {
+                "nodeType": "zoom-brush"
+            },
+            {
                 "nodeType": "axis",
                 "options": {
                     "orient": "bottom",
-                    "dimension": "x",
-                    "label": "step"
+                    "dimension": "x"
                 }
             },
             {
                 "nodeType": "axis",
                 "options": {
                     "orient": "left",
-                    "dimension": "y"
+                    "dimension": "y",
+                    "label": "total count"
                 }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
             },
             {
                 "nodeType": "grid",
@@ -31,21 +38,55 @@
             {
                 "nodeType": "legend",
                 "options": {
-                    "label" : "Legend"
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
                 }
             },
             {
-                "nodeType": "bar-group",
+                "nodeType": "line-group",
                 "children": [
                     {
-                        "nodeType": "bar",
+                        "nodeType": "line",
                         "metric": {
                             "source_id": "uw_funnel_relative",
-                            "source_col": "relative",
+                            "source_col": "tutorial",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "Fraction of users surviving this step"
+                            "label": "tutorial"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "uw_funnel_relative",
+                            "source_col": "file",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "uw_funnel_relative",
+                            "source_col": "deeds",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "deeds"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "uw_funnel_relative",
+                            "source_col": "details",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "details"
                         }
                     }
                 ]
