@@ -1,7 +1,7 @@
 {
     "graph_version": "0.6.0",
     "id": "uw_funnel_relative",
-    "desc": "<a href=\"https://en.wikipedia.org/wiki/Funnel_chart\">Funnel analysis for Upload Wizard</a>. Displays the daily survival rate of each step over the last 30 days.",
+    "desc": "<a href=\"https://www.mediawiki.org/wiki/UploadWizard/Funnel_analysis\">Funnel analysis for Upload Wizard</a>. Displays the daily survival rate of each step over the last 30 days.",
     "name": "Funnel analysis (relative over time)",
     "slug": "uw_funnel_relative",
     "root": {
