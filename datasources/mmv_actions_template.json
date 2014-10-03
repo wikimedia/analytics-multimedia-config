@@ -271,6 +271,16 @@
             "id": "use-this-file-close",
             "label": "use this file closed",
             "type": "Number"
+        },
+        {
+            "id": "download-open",
+            "label": "download opened",
+            "type": "Number"
+        },
+        {
+            "id": "download-close",
+            "label": "download closed",
+            "type": "Number"
         }
     ]
 }
