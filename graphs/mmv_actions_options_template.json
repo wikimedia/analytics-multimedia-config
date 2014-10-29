@@ -1,0 +1,74 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_actions_options_%wiki%",
+    "desc": "<b>about page (disable)</b> how many times users clicked visited the about page from the disable view<br><b>about page (enable)</b> how many times users visited the about page from the enable view<br>",
+    "name": "Options actions",
+    "slug": "mmv_actions_options_%wiki%",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+			{
+				"nodeType": "zoom-brush"
+			},
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "disable-about-link",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "about page (disable)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "enable-about-link",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "about page (enable)"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

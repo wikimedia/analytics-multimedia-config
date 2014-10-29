@@ -60,6 +60,7 @@ templates = {
     './graphs/mmv_actions_download': None,
     './graphs/mmv_actions_share': None,
     './graphs/mmv_actions_embed': None,
+    './graphs/mmv_actions_options': None,
     './graphs/mmv_opt_inout': None,
     './datasources/mmv_optout': None,
     './graphs/mmv_optout': None,

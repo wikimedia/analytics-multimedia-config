@@ -9,7 +9,8 @@
 				"mmv_actions_%wiki%",
 				"mmv_actions_download_%wiki%",
 				"mmv_actions_share_%wiki%",
-				"mmv_actions_embed_%wiki%"
+				"mmv_actions_embed_%wiki%",
+				"mmv_actions_options_%wiki%"
 			]
 		},
 		{

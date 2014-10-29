@@ -281,6 +281,26 @@
             "id": "download-close",
             "label": "download closed",
             "type": "Number"
+        },
+        {
+            "id": "options-open",
+            "label": "options opened",
+            "type": "Number"
+        },
+        {
+            "id": "options-close",
+            "label": "options closed",
+            "type": "Number"
+        },
+        {
+            "id": "disable-about-link",
+            "label": "about page (disable)",
+            "type": "Number"
+        },
+        {
+            "id": "enable-about-link",
+            "label": "about page (enable)",
+            "type": "Number"
         }
     ]
 }
