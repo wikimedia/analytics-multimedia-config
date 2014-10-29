@@ -1,7 +1,7 @@
 {
     "graph_version": "0.6.0",
     "id": "mmv_optout_%wiki%",
-    "desc": "Tracking how many people have opted out of Media Vieweron %wiki%.<br><b>logged-in</b> users who have made a login or change in the last 30 days<br><b>active</b> users who made 5+ edits in the last 30 days",
+    "desc": "Tracking how many people have opted out of Media Viewer on %wiki%.<br>(On Commons the graph shows the number of people who opted in.)<br><b>logged-in</b> users who have made a login or change in the last 30 days<br><b>active</b> users who made 5+ edits in the last 30 days",
     "name": "Optout",
     "slug": "mmv_optout_%wiki%",
     "root": {
