@@ -38,8 +38,7 @@
 			"name": "Media Viewer vs File page",
 			"graph_ids": [
 				"mmv_duration_global",
-				"mmv_versus_file_page",
-				"mmv_versus_file_page_new"
+				"mmv_versus_file_page"
 			]
 		},
 		{
