@@ -214,6 +214,17 @@
                         "nodeType": "line",
                         "metric": {
                             "source_id": "mmv_actions_%wiki%",
+                            "source_col": "image-unview",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image unview"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
                             "source_col": "metadata-open",
                             "type": "Number"
                         },
@@ -230,6 +241,28 @@
                         },
                         "options": {
                             "label": "metadata close"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "metadata-scroll-open",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "metadata open (scroll)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "metadata-scroll-close",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "metadata close (scroll)"
                         }
                     },
                     {

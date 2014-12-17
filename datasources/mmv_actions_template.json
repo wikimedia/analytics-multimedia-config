@@ -301,6 +301,21 @@
             "id": "enable-about-link",
             "label": "about page (enable)",
             "type": "Number"
+        },
+        {
+            "id": "image-unview",
+            "label": "image unview",
+            "type": "Number"
+        },
+        {
+            "id": "metadata-scroll-open",
+            "label": "metadata scroll open",
+            "type": "Number"
+        },
+        {
+            "id": "metadata-scroll-close",
+            "label": "metadata scroll close",
+            "type": "Number"
         }
     ]
 }
