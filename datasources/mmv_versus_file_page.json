@@ -3,7 +3,7 @@
     "slug": "mmv_versus_filepage",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-mmv-versus-filepage.tsv",
+    "url": "http://datasets.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-mmv-versus-filepage.tsv",
     "name": "Media Viewer versus File page",
     "shortName": "mmv_versus_filepage",
     "columns": [

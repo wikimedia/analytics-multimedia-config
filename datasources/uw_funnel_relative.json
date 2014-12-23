@@ -3,7 +3,7 @@
     "slug": "uw_funnel_relative",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/upload-wizard-funnel-relative.tsv",
+    "url": "http://datasets.wikimedia.org/public-datasets/all/multimedia/upload-wizard-funnel-relative.tsv",
     "name": "Funnel",
     "shortName": "uw_funnel_relative",
     "columns": [

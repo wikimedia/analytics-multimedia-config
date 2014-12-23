@@ -3,7 +3,7 @@
     "slug": "mmv_performance_%metric%_%wiki%",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-%wiki%-%metric%.tsv",
+    "url": "http://datasets.wikimedia.org/public-datasets/all/multimedia/media-viewer-perf-%wiki%-%metric%.tsv",
     "name": "%metric% network performance: %wiki%",
     "shortName": "mmv_performance_%metric%_%wiki%",
     "columns": [

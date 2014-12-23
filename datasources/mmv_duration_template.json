@@ -3,7 +3,7 @@
     "slug": "mmv_duration_%wiki%",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-duration-%wiki%.tsv",
+    "url": "http://datasets.wikimedia.org/public-datasets/all/multimedia/media-viewer-duration-%wiki%.tsv",
     "name": "Actions: %wiki%",
     "shortName": "mmv_duration_%wiki%",
     "columns": [

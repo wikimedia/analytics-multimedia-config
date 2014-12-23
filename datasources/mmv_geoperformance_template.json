@@ -3,7 +3,7 @@
     "slug": "mmv_geoperformance_%metric%_%wiki%",
     "format": "tsv",
     "type": "series",
-    "url": "http://stat1001.wikimedia.org/public-datasets/all/multimedia/media-viewer-geoperf-%wiki%-%metric%.tsv",
+    "url": "http://datasets.wikimedia.org/public-datasets/all/multimedia/media-viewer-geoperf-%wiki%-%metric%.tsv",
     "name": "Per-country %metric% performance",
     "shortName": "mmv_geoperformance_%metric%_%wiki%",
     "columns": [
