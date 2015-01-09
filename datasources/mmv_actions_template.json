@@ -316,6 +316,11 @@
             "id": "metadata-scroll-close",
             "label": "metadata scroll close",
             "type": "Number"
+        },
+        {
+            "id": "right-click-image",
+            "label": "image right-click",
+            "type": "Number"
         }
     ]
 }
