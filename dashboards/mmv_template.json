@@ -37,7 +37,8 @@
 		{
 			"name": "Media Viewer vs File page",
 			"graph_ids": [
-				"mmv_duration_%wiki%"
+				"mmv_duration_%wiki%",
+				"mmv_pageviews_%wiki%"
 			]
 		},
 		{

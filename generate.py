@@ -66,6 +66,8 @@ templates = {
     './graphs/mmv_optout': None,
     './datasources/mmv_duration': None,
     './graphs/mmv_duration': None,
+    './datasources/mmv_pageviews': None,
+    './graphs/mmv_pageviews': None,
 }
 
 def generate(wiki, templates):

@@ -1,0 +1,119 @@
+{
+    "graph_version": "0.6.0",
+    "id": "mmv_pageviews_%wiki%",
+    "desc": "Comparison of image views via Media Viewer and direct views of the file description page.<br/><dl><dt>image view</dt><dd>number of times Media Viewer displays an image</dd><dt>thumbnail click</dt><dd>number of times Media Viewer is opened via a thumbnail click</dd><dt>hash load</dt><dd>number of times Media Viewer is opened via an URL hash</dd><dt>next image</dt><dd>number of times \"Next\" button is used in Media Viewer</dd><dt>file view</dt><dd>number of File: namespace page views</dd><dt>non-file view</dt><dd>number of other page views (for traffic comparisons)</dd></dl>",
+    "name": "Image views",
+    "slug": "mmv_pageviews_%wiki%",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y",
+                    "label": "total count"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "image-view",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "image view"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "thumbnail",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thumbnail click"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "hash-load",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "hash load"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_actions_%wiki%",
+                            "source_col": "next-image",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "next image"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_pageviews_%wiki%",
+                            "source_col": "file_views",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "file view"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "mmv_pageviews_%wiki%",
+                            "source_col": "nonfile_views",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "non-file view",
+                            "disabled": true
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
