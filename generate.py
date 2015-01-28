@@ -30,6 +30,7 @@ wikis = [
     'tewiki',
     'thwiki',
     'viwiki',
+    'zhwiki',
 ]
 
 performance_metrics = {
